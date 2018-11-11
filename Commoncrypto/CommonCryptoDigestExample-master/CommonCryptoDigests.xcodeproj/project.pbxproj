@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		303D9E6C21690BEE0057F0C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303D9E6B21690BEE0057F0C1 /* AppDelegate.swift */; };
+		303D9E6E21690BEE0057F0C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303D9E6D21690BEE0057F0C1 /* ViewController.swift */; };
+		303D9E7121690BEE0057F0C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 303D9E6F21690BEE0057F0C1 /* Main.storyboard */; };
+		303D9E7321690BEF0057F0C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 303D9E7221690BEF0057F0C1 /* Assets.xcassets */; };
+		303D9E7621690BEF0057F0C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 303D9E7421690BEF0057F0C1 /* LaunchScreen.storyboard */; };
+		303D9E8121690BEF0057F0C1 /* CommonCryptoDigestsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303D9E8021690BEF0057F0C1 /* CommonCryptoDigestsTests.swift */; };
+		303D9E9021690E710057F0C1 /* Digests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303D9E8F21690E710057F0C1 /* Digests.swift */; };
+		303D9E9221690F140057F0C1 /* CDDigests.m in Sources */ = {isa = PBXBuildFile; fileRef = 303D9E9121690F140057F0C1 /* CDDigests.m */; };
+		303D9E95216925110057F0C1 /* Data+Digests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303D9E94216925110057F0C1 /* Data+Digests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		303D9E7D21690BEF0057F0C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 303D9E6021690BED0057F0C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 303D9E6721690BEE0057F0C1;
+			remoteInfo = CommonCryptoDigests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		303D9E6821690BEE0057F0C1 /* CommonCryptoDigests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CommonCryptoDigests.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		303D9E6B21690BEE0057F0C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		303D9E6D21690BEE0057F0C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		303D9E7021690BEE0057F0C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		303D9E7221690BEF0057F0C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		303D9E7521690BEF0057F0C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		303D9E7721690BEF0057F0C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		303D9E7C21690BEF0057F0C1 /* CommonCryptoDigestsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommonCryptoDigestsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		303D9E8021690BEF0057F0C1 /* CommonCryptoDigestsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonCryptoDigestsTests.swift; sourceTree = "<group>"; };
+		303D9E8221690BEF0057F0C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		303D9E8C21690DB90057F0C1 /* CommonCryptoDigests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CommonCryptoDigests-Bridging-Header.h"; sourceTree = "<group>"; };
+		303D9E8F21690E710057F0C1 /* Digests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Digests.swift; sourceTree = "<group>"; };
+		303D9E9121690F140057F0C1 /* CDDigests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDDigests.m; sourceTree = "<group>"; };
+		303D9E9321690F300057F0C1 /* CDDigests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDDigests.h; sourceTree = "<group>"; };
+		303D9E94216925110057F0C1 /* Data+Digests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Digests.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		303D9E6521690BEE0057F0C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		303D9E7921690BEF0057F0C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		303D9E5F21690BED0057F0C1 = {
+			isa = PBXGroup;
+			children = (
+				303D9E6A21690BEE0057F0C1 /* CommonCryptoDigests */,
+				303D9E7F21690BEF0057F0C1 /* CommonCryptoDigestsTests */,
+				303D9E6921690BEE0057F0C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		303D9E6921690BEE0057F0C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				303D9E6821690BEE0057F0C1 /* CommonCryptoDigests.app */,
+				303D9E7C21690BEF0057F0C1 /* CommonCryptoDigestsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		303D9E6A21690BEE0057F0C1 /* CommonCryptoDigests */ = {
+			isa = PBXGroup;
+			children = (
+				303D9E6B21690BEE0057F0C1 /* AppDelegate.swift */,
+				303D9E6D21690BEE0057F0C1 /* ViewController.swift */,
+				303D9E6F21690BEE0057F0C1 /* Main.storyboard */,
+				303D9E7221690BEF0057F0C1 /* Assets.xcassets */,
+				303D9E7421690BEF0057F0C1 /* LaunchScreen.storyboard */,
+				303D9E7721690BEF0057F0C1 /* Info.plist */,
+				303D9E8C21690DB90057F0C1 /* CommonCryptoDigests-Bridging-Header.h */,
+				303D9E8F21690E710057F0C1 /* Digests.swift */,
+				303D9E9321690F300057F0C1 /* CDDigests.h */,
+				303D9E9121690F140057F0C1 /* CDDigests.m */,
+				303D9E94216925110057F0C1 /* Data+Digests.swift */,
+			);
+			path = CommonCryptoDigests;
+			sourceTree = "<group>";
+		};
+		303D9E7F21690BEF0057F0C1 /* CommonCryptoDigestsTests */ = {
+			isa = PBXGroup;
+			children = (
+				303D9E8021690BEF0057F0C1 /* CommonCryptoDigestsTests.swift */,
+				303D9E8221690BEF0057F0C1 /* Info.plist */,
+			);
+			path = CommonCryptoDigestsTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		303D9E6721690BEE0057F0C1 /* CommonCryptoDigests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 303D9E8521690BEF0057F0C1 /* Build configuration list for PBXNativeTarget "CommonCryptoDigests" */;
+			buildPhases = (
+				303D9E6421690BEE0057F0C1 /* Sources */,
+				303D9E6521690BEE0057F0C1 /* Frameworks */,
+				303D9E6621690BEE0057F0C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CommonCryptoDigests;
+			productName = CommonCryptoDigests;
+			productReference = 303D9E6821690BEE0057F0C1 /* CommonCryptoDigests.app */;
+			productType = "com.apple.product-type.application";
+		};
+		303D9E7B21690BEF0057F0C1 /* CommonCryptoDigestsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 303D9E8821690BEF0057F0C1 /* Build configuration list for PBXNativeTarget "CommonCryptoDigestsTests" */;
+			buildPhases = (
+				303D9E7821690BEF0057F0C1 /* Sources */,
+				303D9E7921690BEF0057F0C1 /* Frameworks */,
+				303D9E7A21690BEF0057F0C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				303D9E7E21690BEF0057F0C1 /* PBXTargetDependency */,
+			);
+			name = CommonCryptoDigestsTests;
+			productName = CommonCryptoDigestsTests;
+			productReference = 303D9E7C21690BEF0057F0C1 /* CommonCryptoDigestsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		303D9E6021690BED0057F0C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Luis Ezcurdia";
+				TargetAttributes = {
+					303D9E6721690BEE0057F0C1 = {
+						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
+					};
+					303D9E7B21690BEF0057F0C1 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 303D9E6721690BEE0057F0C1;
+					};
+				};
+			};
+			buildConfigurationList = 303D9E6321690BED0057F0C1 /* Build configuration list for PBXProject "CommonCryptoDigests" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 303D9E5F21690BED0057F0C1;
+			productRefGroup = 303D9E6921690BEE0057F0C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				303D9E6721690BEE0057F0C1 /* CommonCryptoDigests */,
+				303D9E7B21690BEF0057F0C1 /* CommonCryptoDigestsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		303D9E6621690BEE0057F0C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				303D9E7621690BEF0057F0C1 /* LaunchScreen.storyboard in Resources */,
+				303D9E7321690BEF0057F0C1 /* Assets.xcassets in Resources */,
+				303D9E7121690BEE0057F0C1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		303D9E7A21690BEF0057F0C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		303D9E6421690BEE0057F0C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				303D9E9221690F140057F0C1 /* CDDigests.m in Sources */,
+				303D9E6E21690BEE0057F0C1 /* ViewController.swift in Sources */,
+				303D9E6C21690BEE0057F0C1 /* AppDelegate.swift in Sources */,
+				303D9E95216925110057F0C1 /* Data+Digests.swift in Sources */,
+				303D9E9021690E710057F0C1 /* Digests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		303D9E7821690BEF0057F0C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				303D9E8121690BEF0057F0C1 /* CommonCryptoDigestsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		303D9E7E21690BEF0057F0C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 303D9E6721690BEE0057F0C1 /* CommonCryptoDigests */;
+			targetProxy = 303D9E7D21690BEF0057F0C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		303D9E6F21690BEE0057F0C1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				303D9E7021690BEE0057F0C1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		303D9E7421690BEF0057F0C1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				303D9E7521690BEF0057F0C1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		303D9E8321690BEF0057F0C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		303D9E8421690BEF0057F0C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		303D9E8621690BEF0057F0C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D3XL2U7DQC;
+				INFOPLIST_FILE = CommonCryptoDigests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.ezcurdia.CommonCryptoDigests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CommonCryptoDigests/CommonCryptoDigests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		303D9E8721690BEF0057F0C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D3XL2U7DQC;
+				INFOPLIST_FILE = CommonCryptoDigests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.ezcurdia.CommonCryptoDigests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CommonCryptoDigests/CommonCryptoDigests-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		303D9E8921690BEF0057F0C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D3XL2U7DQC;
+				INFOPLIST_FILE = CommonCryptoDigestsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.ezcurdia.CommonCryptoDigestsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CommonCryptoDigests.app/CommonCryptoDigests";
+			};
+			name = Debug;
+		};
+		303D9E8A21690BEF0057F0C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D3XL2U7DQC;
+				INFOPLIST_FILE = CommonCryptoDigestsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.ezcurdia.CommonCryptoDigestsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CommonCryptoDigests.app/CommonCryptoDigests";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		303D9E6321690BED0057F0C1 /* Build configuration list for PBXProject "CommonCryptoDigests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				303D9E8321690BEF0057F0C1 /* Debug */,
+				303D9E8421690BEF0057F0C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		303D9E8521690BEF0057F0C1 /* Build configuration list for PBXNativeTarget "CommonCryptoDigests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				303D9E8621690BEF0057F0C1 /* Debug */,
+				303D9E8721690BEF0057F0C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		303D9E8821690BEF0057F0C1 /* Build configuration list for PBXNativeTarget "CommonCryptoDigestsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				303D9E8921690BEF0057F0C1 /* Debug */,
+				303D9E8A21690BEF0057F0C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 303D9E6021690BED0057F0C1 /* Project object */;
+}

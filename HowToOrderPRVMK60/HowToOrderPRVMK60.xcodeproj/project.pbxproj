@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F3A277021671F9D0019A579 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3A276F21671F9D0019A579 /* AppDelegate.swift */; };
+		8F3A277721671FAA0019A579 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F3A277621671FAA0019A579 /* Assets.xcassets */; };
+		8F3A277A21671FAA0019A579 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F3A277821671FAA0019A579 /* LaunchScreen.storyboard */; };
+		8F3A278521671FAB0019A579 /* HowToOrderPRVMK60Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3A278421671FAB0019A579 /* HowToOrderPRVMK60Tests.swift */; };
+		8F3A279021671FAB0019A579 /* HowToOrderPRVMK60UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3A278F21671FAB0019A579 /* HowToOrderPRVMK60UITests.swift */; };
+		8F3A279E216721C70019A579 /* HowToOrderPressureRegulatorValveTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3A279D216721C70019A579 /* HowToOrderPressureRegulatorValveTableViewController.swift */; };
+		8F3A27A0216722190019A579 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F3A279F216722190019A579 /* Storyboard.storyboard */; };
+		8F3A27A2216723030019A579 /* HowToOrderValve.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3A27A1216723030019A579 /* HowToOrderValve.swift */; };
+		8F3A27A4216723510019A579 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3A27A3216723510019A579 /* Model.swift */; };
+		8F3A27A62167240F0019A579 /* Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3A27A52167240F0019A579 /* Size.swift */; };
+		8F3A27A8216724F30019A579 /* BodyMaterial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3A27A7216724F30019A579 /* BodyMaterial.swift */; };
+		8F8B477F216FC9850023A399 /* InitalTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8B477E216FC9850023A399 /* InitalTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8F3A278121671FAA0019A579 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F3A276421671F9D0019A579 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F3A276B21671F9D0019A579;
+			remoteInfo = HowToOrderPRVMK60;
+		};
+		8F3A278C21671FAB0019A579 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F3A276421671F9D0019A579 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F3A276B21671F9D0019A579;
+			remoteInfo = HowToOrderPRVMK60;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8F3A276C21671F9D0019A579 /* HowToOrderPRVMK60.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HowToOrderPRVMK60.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F3A276F21671F9D0019A579 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8F3A277621671FAA0019A579 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F3A277921671FAA0019A579 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8F3A277B21671FAA0019A579 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F3A278021671FAA0019A579 /* HowToOrderPRVMK60Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HowToOrderPRVMK60Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F3A278421671FAB0019A579 /* HowToOrderPRVMK60Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToOrderPRVMK60Tests.swift; sourceTree = "<group>"; };
+		8F3A278621671FAB0019A579 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F3A278B21671FAB0019A579 /* HowToOrderPRVMK60UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HowToOrderPRVMK60UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F3A278F21671FAB0019A579 /* HowToOrderPRVMK60UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToOrderPRVMK60UITests.swift; sourceTree = "<group>"; };
+		8F3A279121671FAB0019A579 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F3A279D216721C70019A579 /* HowToOrderPressureRegulatorValveTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToOrderPressureRegulatorValveTableViewController.swift; sourceTree = "<group>"; };
+		8F3A279F216722190019A579 /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		8F3A27A1216723030019A579 /* HowToOrderValve.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToOrderValve.swift; sourceTree = "<group>"; };
+		8F3A27A3216723510019A579 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		8F3A27A52167240F0019A579 /* Size.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Size.swift; sourceTree = "<group>"; };
+		8F3A27A7216724F30019A579 /* BodyMaterial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyMaterial.swift; sourceTree = "<group>"; };
+		8F8B477E216FC9850023A399 /* InitalTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitalTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F3A276921671F9D0019A579 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F3A277D21671FAA0019A579 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F3A278821671FAB0019A579 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F3A276321671F9D0019A579 = {
+			isa = PBXGroup;
+			children = (
+				8F3A276E21671F9D0019A579 /* HowToOrderPRVMK60 */,
+				8F3A278321671FAA0019A579 /* HowToOrderPRVMK60Tests */,
+				8F3A278E21671FAB0019A579 /* HowToOrderPRVMK60UITests */,
+				8F3A276D21671F9D0019A579 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F3A276D21671F9D0019A579 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F3A276C21671F9D0019A579 /* HowToOrderPRVMK60.app */,
+				8F3A278021671FAA0019A579 /* HowToOrderPRVMK60Tests.xctest */,
+				8F3A278B21671FAB0019A579 /* HowToOrderPRVMK60UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F3A276E21671F9D0019A579 /* HowToOrderPRVMK60 */ = {
+			isa = PBXGroup;
+			children = (
+				8F3A27A7216724F30019A579 /* BodyMaterial.swift */,
+				8F3A27A52167240F0019A579 /* Size.swift */,
+				8F3A27A3216723510019A579 /* Model.swift */,
+				8F3A27A1216723030019A579 /* HowToOrderValve.swift */,
+				8F8B477E216FC9850023A399 /* InitalTableViewController.swift */,
+				8F3A279D216721C70019A579 /* HowToOrderPressureRegulatorValveTableViewController.swift */,
+				8F3A279F216722190019A579 /* Storyboard.storyboard */,
+				8F3A277621671FAA0019A579 /* Assets.xcassets */,
+				8F3A277821671FAA0019A579 /* LaunchScreen.storyboard */,
+				8F3A276F21671F9D0019A579 /* AppDelegate.swift */,
+				8F3A277B21671FAA0019A579 /* Info.plist */,
+			);
+			path = HowToOrderPRVMK60;
+			sourceTree = "<group>";
+		};
+		8F3A278321671FAA0019A579 /* HowToOrderPRVMK60Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8F3A278421671FAB0019A579 /* HowToOrderPRVMK60Tests.swift */,
+				8F3A278621671FAB0019A579 /* Info.plist */,
+			);
+			path = HowToOrderPRVMK60Tests;
+			sourceTree = "<group>";
+		};
+		8F3A278E21671FAB0019A579 /* HowToOrderPRVMK60UITests */ = {
+			isa = PBXGroup;
+			children = (
+				8F3A278F21671FAB0019A579 /* HowToOrderPRVMK60UITests.swift */,
+				8F3A279121671FAB0019A579 /* Info.plist */,
+			);
+			path = HowToOrderPRVMK60UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F3A276B21671F9D0019A579 /* HowToOrderPRVMK60 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F3A279421671FAB0019A579 /* Build configuration list for PBXNativeTarget "HowToOrderPRVMK60" */;
+			buildPhases = (
+				8F3A276821671F9D0019A579 /* Sources */,
+				8F3A276921671F9D0019A579 /* Frameworks */,
+				8F3A276A21671F9D0019A579 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HowToOrderPRVMK60;
+			productName = HowToOrderPRVMK60;
+			productReference = 8F3A276C21671F9D0019A579 /* HowToOrderPRVMK60.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8F3A277F21671FAA0019A579 /* HowToOrderPRVMK60Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F3A279721671FAB0019A579 /* Build configuration list for PBXNativeTarget "HowToOrderPRVMK60Tests" */;
+			buildPhases = (
+				8F3A277C21671FAA0019A579 /* Sources */,
+				8F3A277D21671FAA0019A579 /* Frameworks */,
+				8F3A277E21671FAA0019A579 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F3A278221671FAA0019A579 /* PBXTargetDependency */,
+			);
+			name = HowToOrderPRVMK60Tests;
+			productName = HowToOrderPRVMK60Tests;
+			productReference = 8F3A278021671FAA0019A579 /* HowToOrderPRVMK60Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8F3A278A21671FAB0019A579 /* HowToOrderPRVMK60UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F3A279A21671FAB0019A579 /* Build configuration list for PBXNativeTarget "HowToOrderPRVMK60UITests" */;
+			buildPhases = (
+				8F3A278721671FAB0019A579 /* Sources */,
+				8F3A278821671FAB0019A579 /* Frameworks */,
+				8F3A278921671FAB0019A579 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F3A278D21671FAB0019A579 /* PBXTargetDependency */,
+			);
+			name = HowToOrderPRVMK60UITests;
+			productName = HowToOrderPRVMK60UITests;
+			productReference = 8F3A278B21671FAB0019A579 /* HowToOrderPRVMK60UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F3A276421671F9D0019A579 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Carlos Santiago Cruz";
+				TargetAttributes = {
+					8F3A276B21671F9D0019A579 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					8F3A277F21671FAA0019A579 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 8F3A276B21671F9D0019A579;
+					};
+					8F3A278A21671FAB0019A579 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 8F3A276B21671F9D0019A579;
+					};
+				};
+			};
+			buildConfigurationList = 8F3A276721671F9D0019A579 /* Build configuration list for PBXProject "HowToOrderPRVMK60" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F3A276321671F9D0019A579;
+			productRefGroup = 8F3A276D21671F9D0019A579 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F3A276B21671F9D0019A579 /* HowToOrderPRVMK60 */,
+				8F3A277F21671FAA0019A579 /* HowToOrderPRVMK60Tests */,
+				8F3A278A21671FAB0019A579 /* HowToOrderPRVMK60UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F3A276A21671F9D0019A579 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F3A277A21671FAA0019A579 /* LaunchScreen.storyboard in Resources */,
+				8F3A277721671FAA0019A579 /* Assets.xcassets in Resources */,
+				8F3A27A0216722190019A579 /* Storyboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F3A277E21671FAA0019A579 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F3A278921671FAB0019A579 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F3A276821671F9D0019A579 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F3A27A8216724F30019A579 /* BodyMaterial.swift in Sources */,
+				8F3A27A2216723030019A579 /* HowToOrderValve.swift in Sources */,
+				8F3A27A62167240F0019A579 /* Size.swift in Sources */,
+				8F3A279E216721C70019A579 /* HowToOrderPressureRegulatorValveTableViewController.swift in Sources */,
+				8F3A277021671F9D0019A579 /* AppDelegate.swift in Sources */,
+				8F3A27A4216723510019A579 /* Model.swift in Sources */,
+				8F8B477F216FC9850023A399 /* InitalTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F3A277C21671FAA0019A579 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F3A278521671FAB0019A579 /* HowToOrderPRVMK60Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F3A278721671FAB0019A579 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F3A279021671FAB0019A579 /* HowToOrderPRVMK60UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8F3A278221671FAA0019A579 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F3A276B21671F9D0019A579 /* HowToOrderPRVMK60 */;
+			targetProxy = 8F3A278121671FAA0019A579 /* PBXContainerItemProxy */;
+		};
+		8F3A278D21671FAB0019A579 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F3A276B21671F9D0019A579 /* HowToOrderPRVMK60 */;
+			targetProxy = 8F3A278C21671FAB0019A579 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8F3A277821671FAA0019A579 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F3A277921671FAA0019A579 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F3A279221671FAB0019A579 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8F3A279321671FAB0019A579 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F3A279521671FAB0019A579 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KLD58K8YP9;
+				INFOPLIST_FILE = HowToOrderPRVMK60/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Santiago.HowToOrderPRVMK60;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8F3A279621671FAB0019A579 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KLD58K8YP9;
+				INFOPLIST_FILE = HowToOrderPRVMK60/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Santiago.HowToOrderPRVMK60;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8F3A279821671FAB0019A579 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KLD58K8YP9;
+				INFOPLIST_FILE = HowToOrderPRVMK60Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Santiago.HowToOrderPRVMK60Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HowToOrderPRVMK60.app/HowToOrderPRVMK60";
+			};
+			name = Debug;
+		};
+		8F3A279921671FAB0019A579 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KLD58K8YP9;
+				INFOPLIST_FILE = HowToOrderPRVMK60Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Santiago.HowToOrderPRVMK60Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HowToOrderPRVMK60.app/HowToOrderPRVMK60";
+			};
+			name = Release;
+		};
+		8F3A279B21671FAB0019A579 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KLD58K8YP9;
+				INFOPLIST_FILE = HowToOrderPRVMK60UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Santiago.HowToOrderPRVMK60UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HowToOrderPRVMK60;
+			};
+			name = Debug;
+		};
+		8F3A279C21671FAB0019A579 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KLD58K8YP9;
+				INFOPLIST_FILE = HowToOrderPRVMK60UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Santiago.HowToOrderPRVMK60UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HowToOrderPRVMK60;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F3A276721671F9D0019A579 /* Build configuration list for PBXProject "HowToOrderPRVMK60" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F3A279221671FAB0019A579 /* Debug */,
+				8F3A279321671FAB0019A579 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F3A279421671FAB0019A579 /* Build configuration list for PBXNativeTarget "HowToOrderPRVMK60" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F3A279521671FAB0019A579 /* Debug */,
+				8F3A279621671FAB0019A579 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F3A279721671FAB0019A579 /* Build configuration list for PBXNativeTarget "HowToOrderPRVMK60Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F3A279821671FAB0019A579 /* Debug */,
+				8F3A279921671FAB0019A579 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F3A279A21671FAB0019A579 /* Build configuration list for PBXNativeTarget "HowToOrderPRVMK60UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F3A279B21671FAB0019A579 /* Debug */,
+				8F3A279C21671FAB0019A579 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F3A276421671F9D0019A579 /* Project object */;
+}

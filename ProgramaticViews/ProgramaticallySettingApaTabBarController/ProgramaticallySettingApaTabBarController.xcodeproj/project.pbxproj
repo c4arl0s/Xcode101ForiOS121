@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8FCEE52321778FB4002A5018 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCEE52221778FB4002A5018 /* AppDelegate.swift */; };
+		8FCEE52821778FB4002A5018 /* MyMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FCEE52621778FB4002A5018 /* MyMain.storyboard */; };
+		8FCEE52A21778FD6002A5018 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FCEE52921778FD6002A5018 /* Assets.xcassets */; };
+		8FCEE52D21778FD6002A5018 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FCEE52B21778FD6002A5018 /* LaunchScreen.storyboard */; };
+		8FCEE53821778FD7002A5018 /* ProgramaticallySettingApaTabBarControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCEE53721778FD7002A5018 /* ProgramaticallySettingApaTabBarControllerTests.swift */; };
+		8FCEE54321778FD7002A5018 /* ProgramaticallySettingApaTabBarControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCEE54221778FD7002A5018 /* ProgramaticallySettingApaTabBarControllerUITests.swift */; };
+		8FCEE551217790B7002A5018 /* VC1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCEE550217790B7002A5018 /* VC1.swift */; };
+		8FCEE553217790D6002A5018 /* VC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCEE552217790D6002A5018 /* VC2.swift */; };
+		8FCEE5552177ACDE002A5018 /* VC3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCEE5542177ACDE002A5018 /* VC3.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8FCEE53421778FD7002A5018 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FCEE51721778FB4002A5018 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FCEE51E21778FB4002A5018;
+			remoteInfo = ProgramaticallySettingApaTabBarController;
+		};
+		8FCEE53F21778FD7002A5018 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FCEE51721778FB4002A5018 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FCEE51E21778FB4002A5018;
+			remoteInfo = ProgramaticallySettingApaTabBarController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8FCEE51F21778FB4002A5018 /* ProgramaticallySettingApaTabBarController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProgramaticallySettingApaTabBarController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FCEE52221778FB4002A5018 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8FCEE52721778FB4002A5018 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MyMain.storyboard; sourceTree = "<group>"; };
+		8FCEE52921778FD6002A5018 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8FCEE52C21778FD6002A5018 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8FCEE52E21778FD6002A5018 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FCEE53321778FD7002A5018 /* ProgramaticallySettingApaTabBarControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProgramaticallySettingApaTabBarControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FCEE53721778FD7002A5018 /* ProgramaticallySettingApaTabBarControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramaticallySettingApaTabBarControllerTests.swift; sourceTree = "<group>"; };
+		8FCEE53921778FD7002A5018 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FCEE53E21778FD7002A5018 /* ProgramaticallySettingApaTabBarControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProgramaticallySettingApaTabBarControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FCEE54221778FD7002A5018 /* ProgramaticallySettingApaTabBarControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramaticallySettingApaTabBarControllerUITests.swift; sourceTree = "<group>"; };
+		8FCEE54421778FD7002A5018 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FCEE550217790B7002A5018 /* VC1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC1.swift; sourceTree = "<group>"; };
+		8FCEE552217790D6002A5018 /* VC2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC2.swift; sourceTree = "<group>"; };
+		8FCEE5542177ACDE002A5018 /* VC3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC3.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8FCEE51C21778FB4002A5018 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FCEE53021778FD7002A5018 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FCEE53B21778FD7002A5018 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8FCEE51621778FB4002A5018 = {
+			isa = PBXGroup;
+			children = (
+				8FCEE52121778FB4002A5018 /* ProgramaticallySettingApaTabBarController */,
+				8FCEE53621778FD7002A5018 /* ProgramaticallySettingApaTabBarControllerTests */,
+				8FCEE54121778FD7002A5018 /* ProgramaticallySettingApaTabBarControllerUITests */,
+				8FCEE52021778FB4002A5018 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8FCEE52021778FB4002A5018 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8FCEE51F21778FB4002A5018 /* ProgramaticallySettingApaTabBarController.app */,
+				8FCEE53321778FD7002A5018 /* ProgramaticallySettingApaTabBarControllerTests.xctest */,
+				8FCEE53E21778FD7002A5018 /* ProgramaticallySettingApaTabBarControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8FCEE52121778FB4002A5018 /* ProgramaticallySettingApaTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				8FCEE52221778FB4002A5018 /* AppDelegate.swift */,
+				8FCEE550217790B7002A5018 /* VC1.swift */,
+				8FCEE5542177ACDE002A5018 /* VC3.swift */,
+				8FCEE552217790D6002A5018 /* VC2.swift */,
+				8FCEE52621778FB4002A5018 /* MyMain.storyboard */,
+				8FCEE52921778FD6002A5018 /* Assets.xcassets */,
+				8FCEE52B21778FD6002A5018 /* LaunchScreen.storyboard */,
+				8FCEE52E21778FD6002A5018 /* Info.plist */,
+			);
+			path = ProgramaticallySettingApaTabBarController;
+			sourceTree = "<group>";
+		};
+		8FCEE53621778FD7002A5018 /* ProgramaticallySettingApaTabBarControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				8FCEE53721778FD7002A5018 /* ProgramaticallySettingApaTabBarControllerTests.swift */,
+				8FCEE53921778FD7002A5018 /* Info.plist */,
+			);
+			path = ProgramaticallySettingApaTabBarControllerTests;
+			sourceTree = "<group>";
+		};
+		8FCEE54121778FD7002A5018 /* ProgramaticallySettingApaTabBarControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8FCEE54221778FD7002A5018 /* ProgramaticallySettingApaTabBarControllerUITests.swift */,
+				8FCEE54421778FD7002A5018 /* Info.plist */,
+			);
+			path = ProgramaticallySettingApaTabBarControllerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8FCEE51E21778FB4002A5018 /* ProgramaticallySettingApaTabBarController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FCEE54721778FD7002A5018 /* Build configuration list for PBXNativeTarget "ProgramaticallySettingApaTabBarController" */;
+			buildPhases = (
+				8FCEE51B21778FB4002A5018 /* Sources */,
+				8FCEE51C21778FB4002A5018 /* Frameworks */,
+				8FCEE51D21778FB4002A5018 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProgramaticallySettingApaTabBarController;
+			productName = ProgramaticallySettingApaTabBarController;
+			productReference = 8FCEE51F21778FB4002A5018 /* ProgramaticallySettingApaTabBarController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8FCEE53221778FD7002A5018 /* ProgramaticallySettingApaTabBarControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FCEE54A21778FD7002A5018 /* Build configuration list for PBXNativeTarget "ProgramaticallySettingApaTabBarControllerTests" */;
+			buildPhases = (
+				8FCEE52F21778FD7002A5018 /* Sources */,
+				8FCEE53021778FD7002A5018 /* Frameworks */,
+				8FCEE53121778FD7002A5018 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8FCEE53521778FD7002A5018 /* PBXTargetDependency */,
+			);
+			name = ProgramaticallySettingApaTabBarControllerTests;
+			productName = ProgramaticallySettingApaTabBarControllerTests;
+			productReference = 8FCEE53321778FD7002A5018 /* ProgramaticallySettingApaTabBarControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8FCEE53D21778FD7002A5018 /* ProgramaticallySettingApaTabBarControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FCEE54D21778FD7002A5018 /* Build configuration list for PBXNativeTarget "ProgramaticallySettingApaTabBarControllerUITests" */;
+			buildPhases = (
+				8FCEE53A21778FD7002A5018 /* Sources */,
+				8FCEE53B21778FD7002A5018 /* Frameworks */,
+				8FCEE53C21778FD7002A5018 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8FCEE54021778FD7002A5018 /* PBXTargetDependency */,
+			);
+			name = ProgramaticallySettingApaTabBarControllerUITests;
+			productName = ProgramaticallySettingApaTabBarControllerUITests;
+			productReference = 8FCEE53E21778FD7002A5018 /* ProgramaticallySettingApaTabBarControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8FCEE51721778FB4002A5018 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Carlos Santiago Cruz";
+				TargetAttributes = {
+					8FCEE51E21778FB4002A5018 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					8FCEE53221778FD7002A5018 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 8FCEE51E21778FB4002A5018;
+					};
+					8FCEE53D21778FD7002A5018 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 8FCEE51E21778FB4002A5018;
+					};
+				};
+			};
+			buildConfigurationList = 8FCEE51A21778FB4002A5018 /* Build configuration list for PBXProject "ProgramaticallySettingApaTabBarController" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8FCEE51621778FB4002A5018;
+			productRefGroup = 8FCEE52021778FB4002A5018 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8FCEE51E21778FB4002A5018 /* ProgramaticallySettingApaTabBarController */,
+				8FCEE53221778FD7002A5018 /* ProgramaticallySettingApaTabBarControllerTests */,
+				8FCEE53D21778FD7002A5018 /* ProgramaticallySettingApaTabBarControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8FCEE51D21778FB4002A5018 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FCEE52D21778FD6002A5018 /* LaunchScreen.storyboard in Resources */,
+				8FCEE52A21778FD6002A5018 /* Assets.xcassets in Resources */,
+				8FCEE52821778FB4002A5018 /* MyMain.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FCEE53121778FD7002A5018 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FCEE53C21778FD7002A5018 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8FCEE51B21778FB4002A5018 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FCEE5552177ACDE002A5018 /* VC3.swift in Sources */,
+				8FCEE553217790D6002A5018 /* VC2.swift in Sources */,
+				8FCEE551217790B7002A5018 /* VC1.swift in Sources */,
+				8FCEE52321778FB4002A5018 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FCEE52F21778FD7002A5018 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FCEE53821778FD7002A5018 /* ProgramaticallySettingApaTabBarControllerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FCEE53A21778FD7002A5018 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FCEE54321778FD7002A5018 /* ProgramaticallySettingApaTabBarControllerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8FCEE53521778FD7002A5018 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8FCEE51E21778FB4002A5018 /* ProgramaticallySettingApaTabBarController */;
+			targetProxy = 8FCEE53421778FD7002A5018 /* PBXContainerItemProxy */;
+		};
+		8FCEE54021778FD7002A5018 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8FCEE51E21778FB4002A5018 /* ProgramaticallySettingApaTabBarController */;
+			targetProxy = 8FCEE53F21778FD7002A5018 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8FCEE52621778FB4002A5018 /* MyMain.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FCEE52721778FB4002A5018 /* Base */,
+			);
+			name = MyMain.storyboard;
+			sourceTree = "<group>";
+		};
+		8FCEE52B21778FD6002A5018 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FCEE52C21778FD6002A5018 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8FCEE54521778FD7002A5018 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8FCEE54621778FD7002A5018 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8FCEE54821778FD7002A5018 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KLD58K8YP9;
+				INFOPLIST_FILE = ProgramaticallySettingApaTabBarController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Santiago.ProgramaticallySettingApaTabBarController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8FCEE54921778FD7002A5018 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KLD58K8YP9;
+				INFOPLIST_FILE = ProgramaticallySettingApaTabBarController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Santiago.ProgramaticallySettingApaTabBarController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8FCEE54B21778FD7002A5018 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KLD58K8YP9;
+				INFOPLIST_FILE = ProgramaticallySettingApaTabBarControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Santiago.ProgramaticallySettingApaTabBarControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProgramaticallySettingApaTabBarController.app/ProgramaticallySettingApaTabBarController";
+			};
+			name = Debug;
+		};
+		8FCEE54C21778FD7002A5018 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KLD58K8YP9;
+				INFOPLIST_FILE = ProgramaticallySettingApaTabBarControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Santiago.ProgramaticallySettingApaTabBarControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProgramaticallySettingApaTabBarController.app/ProgramaticallySettingApaTabBarController";
+			};
+			name = Release;
+		};
+		8FCEE54E21778FD7002A5018 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KLD58K8YP9;
+				INFOPLIST_FILE = ProgramaticallySettingApaTabBarControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Santiago.ProgramaticallySettingApaTabBarControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ProgramaticallySettingApaTabBarController;
+			};
+			name = Debug;
+		};
+		8FCEE54F21778FD7002A5018 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KLD58K8YP9;
+				INFOPLIST_FILE = ProgramaticallySettingApaTabBarControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Santiago.ProgramaticallySettingApaTabBarControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ProgramaticallySettingApaTabBarController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8FCEE51A21778FB4002A5018 /* Build configuration list for PBXProject "ProgramaticallySettingApaTabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FCEE54521778FD7002A5018 /* Debug */,
+				8FCEE54621778FD7002A5018 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FCEE54721778FD7002A5018 /* Build configuration list for PBXNativeTarget "ProgramaticallySettingApaTabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FCEE54821778FD7002A5018 /* Debug */,
+				8FCEE54921778FD7002A5018 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FCEE54A21778FD7002A5018 /* Build configuration list for PBXNativeTarget "ProgramaticallySettingApaTabBarControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FCEE54B21778FD7002A5018 /* Debug */,
+				8FCEE54C21778FD7002A5018 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FCEE54D21778FD7002A5018 /* Build configuration list for PBXNativeTarget "ProgramaticallySettingApaTabBarControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FCEE54E21778FD7002A5018 /* Debug */,
+				8FCEE54F21778FD7002A5018 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8FCEE51721778FB4002A5018 /* Project object */;
+}

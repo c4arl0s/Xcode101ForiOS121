@@ -1,0 +1,645 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8FC1D0102155AB9C008C6243 /* Controllers in Resources */ = {isa = PBXBuildFile; fileRef = 8FC1D00F2155AB9C008C6243 /* Controllers */; };
+		8FC1D0152155AC6C008C6243 /* FishesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC1D0132155AC6C008C6243 /* FishesViewController.swift */; };
+		8FC1D0162155AC6C008C6243 /* FishesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FC1D0142155AC6C008C6243 /* FishesViewController.xib */; };
+		8FC1D0192155AED9008C6243 /* FishesViewCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC1D0172155AED8008C6243 /* FishesViewCellTableViewCell.swift */; };
+		8FC1D01A2155AED9008C6243 /* FishesViewCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FC1D0182155AED8008C6243 /* FishesViewCellTableViewCell.xib */; };
+		8FC67A6C214C6D0000223664 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC67A6B214C6D0000223664 /* AppDelegate.swift */; };
+		8FC67A75214C6D0100223664 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FC67A74214C6D0100223664 /* Assets.xcassets */; };
+		8FC67A78214C6D0100223664 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FC67A76214C6D0100223664 /* LaunchScreen.storyboard */; };
+		8FC67A83214C6D0100223664 /* plasticFishesMVCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC67A82214C6D0100223664 /* plasticFishesMVCTests.swift */; };
+		8FC67A8E214C6D0200223664 /* plasticFishesMVCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC67A8D214C6D0200223664 /* plasticFishesMVCUITests.swift */; };
+		8FC67AA0214C83B200223664 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC67A9F214C83B200223664 /* DataSource.swift */; };
+		8FC67AA2214C85F300223664 /* Fish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC67AA1214C85F300223664 /* Fish.swift */; };
+		8FC67AA5214C881500223664 /* FishService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC67AA4214C881500223664 /* FishService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8FC67A7F214C6D0100223664 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FC67A60214C6CFF00223664 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FC67A67214C6CFF00223664;
+			remoteInfo = plasticFishesMVC;
+		};
+		8FC67A8A214C6D0200223664 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FC67A60214C6CFF00223664 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FC67A67214C6CFF00223664;
+			remoteInfo = plasticFishesMVC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8FC1D00F2155AB9C008C6243 /* Controllers */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Controllers; sourceTree = "<group>"; };
+		8FC1D0132155AC6C008C6243 /* FishesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishesViewController.swift; sourceTree = "<group>"; };
+		8FC1D0142155AC6C008C6243 /* FishesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FishesViewController.xib; sourceTree = "<group>"; };
+		8FC1D0172155AED8008C6243 /* FishesViewCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishesViewCellTableViewCell.swift; sourceTree = "<group>"; };
+		8FC1D0182155AED8008C6243 /* FishesViewCellTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FishesViewCellTableViewCell.xib; sourceTree = "<group>"; };
+		8FC67A68214C6D0000223664 /* plasticFishesMVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = plasticFishesMVC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FC67A6B214C6D0000223664 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8FC67A74214C6D0100223664 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8FC67A77214C6D0100223664 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8FC67A79214C6D0100223664 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FC67A7E214C6D0100223664 /* plasticFishesMVCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = plasticFishesMVCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FC67A82214C6D0100223664 /* plasticFishesMVCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = plasticFishesMVCTests.swift; sourceTree = "<group>"; };
+		8FC67A84214C6D0200223664 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FC67A89214C6D0200223664 /* plasticFishesMVCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = plasticFishesMVCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FC67A8D214C6D0200223664 /* plasticFishesMVCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = plasticFishesMVCUITests.swift; sourceTree = "<group>"; };
+		8FC67A8F214C6D0200223664 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FC67A9F214C83B200223664 /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
+		8FC67AA1214C85F300223664 /* Fish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fish.swift; sourceTree = "<group>"; };
+		8FC67AA4214C881500223664 /* FishService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8FC67A65214C6CFF00223664 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FC67A7B214C6D0100223664 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FC67A86214C6D0200223664 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8FC67A5F214C6CFF00223664 = {
+			isa = PBXGroup;
+			children = (
+				8FC67A6A214C6D0000223664 /* plasticFishesMVC */,
+				8FC67A81214C6D0100223664 /* plasticFishesMVCTests */,
+				8FC67A8C214C6D0200223664 /* plasticFishesMVCUITests */,
+				8FC67A69214C6D0000223664 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8FC67A69214C6D0000223664 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8FC67A68214C6D0000223664 /* plasticFishesMVC.app */,
+				8FC67A7E214C6D0100223664 /* plasticFishesMVCTests.xctest */,
+				8FC67A89214C6D0200223664 /* plasticFishesMVCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8FC67A6A214C6D0000223664 /* plasticFishesMVC */ = {
+			isa = PBXGroup;
+			children = (
+				8FC1D00F2155AB9C008C6243 /* Controllers */,
+				8FC67AA3214C879700223664 /* Services */,
+				8FC67A9E214C832200223664 /* network */,
+				8FC67A9D214C713800223664 /* views */,
+				8FC67A9C214C710200223664 /* controllers */,
+				8FC67A9B214C70F900223664 /* models */,
+				8FC67A6B214C6D0000223664 /* AppDelegate.swift */,
+				8FC67A74214C6D0100223664 /* Assets.xcassets */,
+				8FC67A76214C6D0100223664 /* LaunchScreen.storyboard */,
+				8FC67A79214C6D0100223664 /* Info.plist */,
+			);
+			path = plasticFishesMVC;
+			sourceTree = "<group>";
+		};
+		8FC67A81214C6D0100223664 /* plasticFishesMVCTests */ = {
+			isa = PBXGroup;
+			children = (
+				8FC67A82214C6D0100223664 /* plasticFishesMVCTests.swift */,
+				8FC67A84214C6D0200223664 /* Info.plist */,
+			);
+			path = plasticFishesMVCTests;
+			sourceTree = "<group>";
+		};
+		8FC67A8C214C6D0200223664 /* plasticFishesMVCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8FC67A8D214C6D0200223664 /* plasticFishesMVCUITests.swift */,
+				8FC67A8F214C6D0200223664 /* Info.plist */,
+			);
+			path = plasticFishesMVCUITests;
+			sourceTree = "<group>";
+		};
+		8FC67A9B214C70F900223664 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				8FC67AA1214C85F300223664 /* Fish.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		8FC67A9C214C710200223664 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8FC1D0132155AC6C008C6243 /* FishesViewController.swift */,
+				8FC1D0172155AED8008C6243 /* FishesViewCellTableViewCell.swift */,
+				8FC1D0182155AED8008C6243 /* FishesViewCellTableViewCell.xib */,
+				8FC1D0142155AC6C008C6243 /* FishesViewController.xib */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		8FC67A9D214C713800223664 /* views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		8FC67A9E214C832200223664 /* network */ = {
+			isa = PBXGroup;
+			children = (
+				8FC67A9F214C83B200223664 /* DataSource.swift */,
+			);
+			path = network;
+			sourceTree = "<group>";
+		};
+		8FC67AA3214C879700223664 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8FC67AA4214C881500223664 /* FishService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8FC67A67214C6CFF00223664 /* plasticFishesMVC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FC67A92214C6D0200223664 /* Build configuration list for PBXNativeTarget "plasticFishesMVC" */;
+			buildPhases = (
+				8FC67A64214C6CFF00223664 /* Sources */,
+				8FC67A65214C6CFF00223664 /* Frameworks */,
+				8FC67A66214C6CFF00223664 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = plasticFishesMVC;
+			productName = plasticFishesMVC;
+			productReference = 8FC67A68214C6D0000223664 /* plasticFishesMVC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8FC67A7D214C6D0100223664 /* plasticFishesMVCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FC67A95214C6D0200223664 /* Build configuration list for PBXNativeTarget "plasticFishesMVCTests" */;
+			buildPhases = (
+				8FC67A7A214C6D0100223664 /* Sources */,
+				8FC67A7B214C6D0100223664 /* Frameworks */,
+				8FC67A7C214C6D0100223664 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8FC67A80214C6D0100223664 /* PBXTargetDependency */,
+			);
+			name = plasticFishesMVCTests;
+			productName = plasticFishesMVCTests;
+			productReference = 8FC67A7E214C6D0100223664 /* plasticFishesMVCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8FC67A88214C6D0200223664 /* plasticFishesMVCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FC67A98214C6D0200223664 /* Build configuration list for PBXNativeTarget "plasticFishesMVCUITests" */;
+			buildPhases = (
+				8FC67A85214C6D0200223664 /* Sources */,
+				8FC67A86214C6D0200223664 /* Frameworks */,
+				8FC67A87214C6D0200223664 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8FC67A8B214C6D0200223664 /* PBXTargetDependency */,
+			);
+			name = plasticFishesMVCUITests;
+			productName = plasticFishesMVCUITests;
+			productReference = 8FC67A89214C6D0200223664 /* plasticFishesMVCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8FC67A60214C6CFF00223664 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Carlos Santiago Cruz";
+				TargetAttributes = {
+					8FC67A67214C6CFF00223664 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					8FC67A7D214C6D0100223664 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 8FC67A67214C6CFF00223664;
+					};
+					8FC67A88214C6D0200223664 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 8FC67A67214C6CFF00223664;
+					};
+				};
+			};
+			buildConfigurationList = 8FC67A63214C6CFF00223664 /* Build configuration list for PBXProject "plasticFishesMVC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8FC67A5F214C6CFF00223664;
+			productRefGroup = 8FC67A69214C6D0000223664 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8FC67A67214C6CFF00223664 /* plasticFishesMVC */,
+				8FC67A7D214C6D0100223664 /* plasticFishesMVCTests */,
+				8FC67A88214C6D0200223664 /* plasticFishesMVCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8FC67A66214C6CFF00223664 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FC67A78214C6D0100223664 /* LaunchScreen.storyboard in Resources */,
+				8FC67A75214C6D0100223664 /* Assets.xcassets in Resources */,
+				8FC1D0162155AC6C008C6243 /* FishesViewController.xib in Resources */,
+				8FC1D0102155AB9C008C6243 /* Controllers in Resources */,
+				8FC1D01A2155AED9008C6243 /* FishesViewCellTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FC67A7C214C6D0100223664 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FC67A87214C6D0200223664 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8FC67A64214C6CFF00223664 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FC1D0152155AC6C008C6243 /* FishesViewController.swift in Sources */,
+				8FC67AA2214C85F300223664 /* Fish.swift in Sources */,
+				8FC1D0192155AED9008C6243 /* FishesViewCellTableViewCell.swift in Sources */,
+				8FC67AA0214C83B200223664 /* DataSource.swift in Sources */,
+				8FC67A6C214C6D0000223664 /* AppDelegate.swift in Sources */,
+				8FC67AA5214C881500223664 /* FishService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FC67A7A214C6D0100223664 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FC67A83214C6D0100223664 /* plasticFishesMVCTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FC67A85214C6D0200223664 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FC67A8E214C6D0200223664 /* plasticFishesMVCUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8FC67A80214C6D0100223664 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8FC67A67214C6CFF00223664 /* plasticFishesMVC */;
+			targetProxy = 8FC67A7F214C6D0100223664 /* PBXContainerItemProxy */;
+		};
+		8FC67A8B214C6D0200223664 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8FC67A67214C6CFF00223664 /* plasticFishesMVC */;
+			targetProxy = 8FC67A8A214C6D0200223664 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8FC67A76214C6D0100223664 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FC67A77214C6D0100223664 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8FC67A90214C6D0200223664 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8FC67A91214C6D0200223664 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8FC67A93214C6D0200223664 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KLD58K8YP9;
+				INFOPLIST_FILE = plasticFishesMVC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Santiago.plasticFishesMVC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8FC67A94214C6D0200223664 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KLD58K8YP9;
+				INFOPLIST_FILE = plasticFishesMVC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Santiago.plasticFishesMVC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8FC67A96214C6D0200223664 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KLD58K8YP9;
+				INFOPLIST_FILE = plasticFishesMVCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Santiago.plasticFishesMVCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/plasticFishesMVC.app/plasticFishesMVC";
+			};
+			name = Debug;
+		};
+		8FC67A97214C6D0200223664 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KLD58K8YP9;
+				INFOPLIST_FILE = plasticFishesMVCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Santiago.plasticFishesMVCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/plasticFishesMVC.app/plasticFishesMVC";
+			};
+			name = Release;
+		};
+		8FC67A99214C6D0200223664 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KLD58K8YP9;
+				INFOPLIST_FILE = plasticFishesMVCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Santiago.plasticFishesMVCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = plasticFishesMVC;
+			};
+			name = Debug;
+		};
+		8FC67A9A214C6D0200223664 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KLD58K8YP9;
+				INFOPLIST_FILE = plasticFishesMVCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Santiago.plasticFishesMVCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = plasticFishesMVC;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8FC67A63214C6CFF00223664 /* Build configuration list for PBXProject "plasticFishesMVC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FC67A90214C6D0200223664 /* Debug */,
+				8FC67A91214C6D0200223664 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FC67A92214C6D0200223664 /* Build configuration list for PBXNativeTarget "plasticFishesMVC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FC67A93214C6D0200223664 /* Debug */,
+				8FC67A94214C6D0200223664 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FC67A95214C6D0200223664 /* Build configuration list for PBXNativeTarget "plasticFishesMVCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FC67A96214C6D0200223664 /* Debug */,
+				8FC67A97214C6D0200223664 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FC67A98214C6D0200223664 /* Build configuration list for PBXNativeTarget "plasticFishesMVCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FC67A99214C6D0200223664 /* Debug */,
+				8FC67A9A214C6D0200223664 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8FC67A60214C6CFF00223664 /* Project object */;
+}

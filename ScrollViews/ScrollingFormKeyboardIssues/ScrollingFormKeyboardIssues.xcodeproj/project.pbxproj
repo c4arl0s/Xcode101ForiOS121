@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F0A82972140423C008EA1C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0A82962140423C008EA1C5 /* AppDelegate.swift */; };
+		8F0A82992140423C008EA1C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0A82982140423C008EA1C5 /* ViewController.swift */; };
+		8F0A829C2140423C008EA1C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F0A829A2140423C008EA1C5 /* Main.storyboard */; };
+		8F0A829E21404251008EA1C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F0A829D21404251008EA1C5 /* Assets.xcassets */; };
+		8F0A82A121404251008EA1C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F0A829F21404251008EA1C5 /* LaunchScreen.storyboard */; };
+		8F0A82AC21404251008EA1C5 /* ScrollingFormKeyboardIssuesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0A82AB21404251008EA1C5 /* ScrollingFormKeyboardIssuesTests.swift */; };
+		8F0A82B721404251008EA1C5 /* ScrollingFormKeyboardIssuesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0A82B621404251008EA1C5 /* ScrollingFormKeyboardIssuesUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8F0A82A821404251008EA1C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F0A828B2140423C008EA1C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F0A82922140423C008EA1C5;
+			remoteInfo = ScrollingFormKeyboardIssues;
+		};
+		8F0A82B321404251008EA1C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F0A828B2140423C008EA1C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F0A82922140423C008EA1C5;
+			remoteInfo = ScrollingFormKeyboardIssues;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8F0A82932140423C008EA1C5 /* ScrollingFormKeyboardIssues.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollingFormKeyboardIssues.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F0A82962140423C008EA1C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8F0A82982140423C008EA1C5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8F0A829B2140423C008EA1C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8F0A829D21404251008EA1C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F0A82A021404251008EA1C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8F0A82A221404251008EA1C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F0A82A721404251008EA1C5 /* ScrollingFormKeyboardIssuesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollingFormKeyboardIssuesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F0A82AB21404251008EA1C5 /* ScrollingFormKeyboardIssuesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollingFormKeyboardIssuesTests.swift; sourceTree = "<group>"; };
+		8F0A82AD21404251008EA1C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F0A82B221404251008EA1C5 /* ScrollingFormKeyboardIssuesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollingFormKeyboardIssuesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F0A82B621404251008EA1C5 /* ScrollingFormKeyboardIssuesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollingFormKeyboardIssuesUITests.swift; sourceTree = "<group>"; };
+		8F0A82B821404251008EA1C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F0A82902140423C008EA1C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F0A82A421404251008EA1C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F0A82AF21404251008EA1C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F0A828A2140423C008EA1C5 = {
+			isa = PBXGroup;
+			children = (
+				8F0A82952140423C008EA1C5 /* ScrollingFormKeyboardIssues */,
+				8F0A82AA21404251008EA1C5 /* ScrollingFormKeyboardIssuesTests */,
+				8F0A82B521404251008EA1C5 /* ScrollingFormKeyboardIssuesUITests */,
+				8F0A82942140423C008EA1C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F0A82942140423C008EA1C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F0A82932140423C008EA1C5 /* ScrollingFormKeyboardIssues.app */,
+				8F0A82A721404251008EA1C5 /* ScrollingFormKeyboardIssuesTests.xctest */,
+				8F0A82B221404251008EA1C5 /* ScrollingFormKeyboardIssuesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F0A82952140423C008EA1C5 /* ScrollingFormKeyboardIssues */ = {
+			isa = PBXGroup;
+			children = (
+				8F0A82962140423C008EA1C5 /* AppDelegate.swift */,
+				8F0A82982140423C008EA1C5 /* ViewController.swift */,
+				8F0A829A2140423C008EA1C5 /* Main.storyboard */,
+				8F0A829D21404251008EA1C5 /* Assets.xcassets */,
+				8F0A829F21404251008EA1C5 /* LaunchScreen.storyboard */,
+				8F0A82A221404251008EA1C5 /* Info.plist */,
+			);
+			path = ScrollingFormKeyboardIssues;
+			sourceTree = "<group>";
+		};
+		8F0A82AA21404251008EA1C5 /* ScrollingFormKeyboardIssuesTests */ = {
+			isa = PBXGroup;
+			children = (
+				8F0A82AB21404251008EA1C5 /* ScrollingFormKeyboardIssuesTests.swift */,
+				8F0A82AD21404251008EA1C5 /* Info.plist */,
+			);
+			path = ScrollingFormKeyboardIssuesTests;
+			sourceTree = "<group>";
+		};
+		8F0A82B521404251008EA1C5 /* ScrollingFormKeyboardIssuesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8F0A82B621404251008EA1C5 /* ScrollingFormKeyboardIssuesUITests.swift */,
+				8F0A82B821404251008EA1C5 /* Info.plist */,
+			);
+			path = ScrollingFormKeyboardIssuesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F0A82922140423C008EA1C5 /* ScrollingFormKeyboardIssues */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F0A82BB21404251008EA1C5 /* Build configuration list for PBXNativeTarget "ScrollingFormKeyboardIssues" */;
+			buildPhases = (
+				8F0A828F2140423C008EA1C5 /* Sources */,
+				8F0A82902140423C008EA1C5 /* Frameworks */,
+				8F0A82912140423C008EA1C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScrollingFormKeyboardIssues;
+			productName = ScrollingFormKeyboardIssues;
+			productReference = 8F0A82932140423C008EA1C5 /* ScrollingFormKeyboardIssues.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8F0A82A621404251008EA1C5 /* ScrollingFormKeyboardIssuesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F0A82BE21404251008EA1C5 /* Build configuration list for PBXNativeTarget "ScrollingFormKeyboardIssuesTests" */;
+			buildPhases = (
+				8F0A82A321404251008EA1C5 /* Sources */,
+				8F0A82A421404251008EA1C5 /* Frameworks */,
+				8F0A82A521404251008EA1C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F0A82A921404251008EA1C5 /* PBXTargetDependency */,
+			);
+			name = ScrollingFormKeyboardIssuesTests;
+			productName = ScrollingFormKeyboardIssuesTests;
+			productReference = 8F0A82A721404251008EA1C5 /* ScrollingFormKeyboardIssuesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8F0A82B121404251008EA1C5 /* ScrollingFormKeyboardIssuesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F0A82C121404251008EA1C5 /* Build configuration list for PBXNativeTarget "ScrollingFormKeyboardIssuesUITests" */;
+			buildPhases = (
+				8F0A82AE21404251008EA1C5 /* Sources */,
+				8F0A82AF21404251008EA1C5 /* Frameworks */,
+				8F0A82B021404251008EA1C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F0A82B421404251008EA1C5 /* PBXTargetDependency */,
+			);
+			name = ScrollingFormKeyboardIssuesUITests;
+			productName = ScrollingFormKeyboardIssuesUITests;
+			productReference = 8F0A82B221404251008EA1C5 /* ScrollingFormKeyboardIssuesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F0A828B2140423C008EA1C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Carlos Santiago Cruz";
+				TargetAttributes = {
+					8F0A82922140423C008EA1C5 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					8F0A82A621404251008EA1C5 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 8F0A82922140423C008EA1C5;
+					};
+					8F0A82B121404251008EA1C5 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 8F0A82922140423C008EA1C5;
+					};
+				};
+			};
+			buildConfigurationList = 8F0A828E2140423C008EA1C5 /* Build configuration list for PBXProject "ScrollingFormKeyboardIssues" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F0A828A2140423C008EA1C5;
+			productRefGroup = 8F0A82942140423C008EA1C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F0A82922140423C008EA1C5 /* ScrollingFormKeyboardIssues */,
+				8F0A82A621404251008EA1C5 /* ScrollingFormKeyboardIssuesTests */,
+				8F0A82B121404251008EA1C5 /* ScrollingFormKeyboardIssuesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F0A82912140423C008EA1C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F0A82A121404251008EA1C5 /* LaunchScreen.storyboard in Resources */,
+				8F0A829E21404251008EA1C5 /* Assets.xcassets in Resources */,
+				8F0A829C2140423C008EA1C5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F0A82A521404251008EA1C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F0A82B021404251008EA1C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F0A828F2140423C008EA1C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F0A82992140423C008EA1C5 /* ViewController.swift in Sources */,
+				8F0A82972140423C008EA1C5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F0A82A321404251008EA1C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F0A82AC21404251008EA1C5 /* ScrollingFormKeyboardIssuesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F0A82AE21404251008EA1C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F0A82B721404251008EA1C5 /* ScrollingFormKeyboardIssuesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8F0A82A921404251008EA1C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F0A82922140423C008EA1C5 /* ScrollingFormKeyboardIssues */;
+			targetProxy = 8F0A82A821404251008EA1C5 /* PBXContainerItemProxy */;
+		};
+		8F0A82B421404251008EA1C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F0A82922140423C008EA1C5 /* ScrollingFormKeyboardIssues */;
+			targetProxy = 8F0A82B321404251008EA1C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8F0A829A2140423C008EA1C5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F0A829B2140423C008EA1C5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8F0A829F21404251008EA1C5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F0A82A021404251008EA1C5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F0A82B921404251008EA1C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8F0A82BA21404251008EA1C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F0A82BC21404251008EA1C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KLD58K8YP9;
+				INFOPLIST_FILE = ScrollingFormKeyboardIssues/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Santiago.ScrollingFormKeyboardIssues;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8F0A82BD21404251008EA1C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KLD58K8YP9;
+				INFOPLIST_FILE = ScrollingFormKeyboardIssues/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Santiago.ScrollingFormKeyboardIssues;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8F0A82BF21404251008EA1C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KLD58K8YP9;
+				INFOPLIST_FILE = ScrollingFormKeyboardIssuesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Santiago.ScrollingFormKeyboardIssuesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScrollingFormKeyboardIssues.app/ScrollingFormKeyboardIssues";
+			};
+			name = Debug;
+		};
+		8F0A82C021404251008EA1C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KLD58K8YP9;
+				INFOPLIST_FILE = ScrollingFormKeyboardIssuesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Santiago.ScrollingFormKeyboardIssuesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScrollingFormKeyboardIssues.app/ScrollingFormKeyboardIssues";
+			};
+			name = Release;
+		};
+		8F0A82C221404251008EA1C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KLD58K8YP9;
+				INFOPLIST_FILE = ScrollingFormKeyboardIssuesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Santiago.ScrollingFormKeyboardIssuesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ScrollingFormKeyboardIssues;
+			};
+			name = Debug;
+		};
+		8F0A82C321404251008EA1C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KLD58K8YP9;
+				INFOPLIST_FILE = ScrollingFormKeyboardIssuesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Santiago.ScrollingFormKeyboardIssuesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ScrollingFormKeyboardIssues;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F0A828E2140423C008EA1C5 /* Build configuration list for PBXProject "ScrollingFormKeyboardIssues" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F0A82B921404251008EA1C5 /* Debug */,
+				8F0A82BA21404251008EA1C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F0A82BB21404251008EA1C5 /* Build configuration list for PBXNativeTarget "ScrollingFormKeyboardIssues" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F0A82BC21404251008EA1C5 /* Debug */,
+				8F0A82BD21404251008EA1C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F0A82BE21404251008EA1C5 /* Build configuration list for PBXNativeTarget "ScrollingFormKeyboardIssuesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F0A82BF21404251008EA1C5 /* Debug */,
+				8F0A82C021404251008EA1C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F0A82C121404251008EA1C5 /* Build configuration list for PBXNativeTarget "ScrollingFormKeyboardIssuesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F0A82C221404251008EA1C5 /* Debug */,
+				8F0A82C321404251008EA1C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F0A828B2140423C008EA1C5 /* Project object */;
+}
