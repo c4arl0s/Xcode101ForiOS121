@@ -15,6 +15,7 @@ class ViewController: UIViewController {
         
     }
     override func viewDidAppear(_ animated: Bool) {
+     
         let rectangule = CGRect(x: 90, y: 80, width: 200, height: 40)   // creating a rectangule
         let myView = UIView(frame: rectangule)                          // creating the view passing the value rectangule
         myView.backgroundColor = UIColor.red                            // setting the background to red
@@ -23,7 +24,7 @@ class ViewController: UIViewController {
         let labaledRectangule = CGRect(x: 35, y: 15, width: 200, height: 20)
         let myLabel = UILabel(frame: labaledRectangule)
         myLabel.text = "hola, cómo estas ?"
-        myLabel.backgroundColor = UIColor.red
+        myLabel.backgroundColor = UIColor.white
         myView.addSubview(myLabel)
     }
 
