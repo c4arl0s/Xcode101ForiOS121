@@ -20,7 +20,7 @@ class ViewController: UIViewController, UINavigationControllerDelegate, UIImageP
         super.didReceiveMemoryWarning()
     }
     @IBAction func takePictureButtonPressed(_ sender: UIButton) {
-        if (UIImagePickerController.isSourceTypeAvailable(UIImagePickerControllerSourceType.camera)) {
+        if (UIImagePickerController.isSourceTypeAvailable(UIImagePickerController.SourceType.camera)) {
             print("there's a camera")
         myControllerImage = UIImagePickerController()
         myControllerImage.delegate = self
@@ -37,12 +37,15 @@ class ViewController: UIViewController, UINavigationControllerDelegate, UIImageP
             print("2")
         }
     }
-    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
+        // Local variable inserted by Swift 4.2 migrator.
+        let info = convertFromUIImagePickerControllerInfoKeyDictionary(info)
+
         var saveImage: UIImage?
-        let imageChosen = info[UIImagePickerControllerOriginalImage] as? UIImage
+        let imageChosen = info[convertFromUIImagePickerControllerInfoKey(UIImagePickerController.InfoKey.originalImage)] as? UIImage
         imageViewer.image = imageChosen
         print("imageViewer.image")
-        saveImage = info[UIImagePickerControllerOriginalImage] as? UIImage
+        saveImage = info[convertFromUIImagePickerControllerInfoKey(UIImagePickerController.InfoKey.originalImage)] as? UIImage
         print("photo dictionary: \(String(describing: saveImage))")
         UIImageWriteToSavedPhotosAlbum(saveImage!, nil, nil, nil)
         dismiss(animated: true, completion: nil)
@@ -52,4 +55,14 @@ class ViewController: UIViewController, UINavigationControllerDelegate, UIImageP
         print("el usuario canceló la seleccion de fotos")
     }
     
+}
+
+// Helper function inserted by Swift 4.2 migrator.
+fileprivate func convertFromUIImagePickerControllerInfoKeyDictionary(_ input: [UIImagePickerController.InfoKey: Any]) -> [String: Any] {
+	return Dictionary(uniqueKeysWithValues: input.map {key, value in (key.rawValue, value)})
+}
+
+// Helper function inserted by Swift 4.2 migrator.
+fileprivate func convertFromUIImagePickerControllerInfoKey(_ input: UIImagePickerController.InfoKey) -> String {
+	return input.rawValue
 }
