@@ -109,8 +109,8 @@
 		8FE1C97F2196577C00FB90E2 /* LabTunes */ = {
 			isa = PBXGroup;
 			children = (
-				8FE1C9AE2196580400FB90E2 /* Models */,
 				8FE1C9802196577C00FB90E2 /* AppDelegate.swift */,
+				8FE1C9AE2196580400FB90E2 /* Models */,
 				8FE1C9822196577C00FB90E2 /* ViewController.swift */,
 				8FA28AEC2197377D005635F6 /* MusicViewController.swift */,
 				8FE1C9842196577C00FB90E2 /* Main.storyboard */,

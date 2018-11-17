@@ -15,20 +15,17 @@ class User {
     
     // se crea un metodo static por que aun no se ha creado un usuario.
     static func login(userName: String, password: String) -> Bool {
-        if self.userName == userName {
+        if self.userName == userName, self.password == password {
         session.SaveSession()
         return true
         }
         return false
     }
     static func fetchSongs() throws {
-        guard let token = Session.sharedInstance.token else {
-            throw UserError.notSessionAvailable
-        }
+        guard let token = Session.sharedInstance.token else { throw UserError.notSessionAvailable }
         debugPrint(token)
     }
     enum UserError: Error {
     case notSessionAvailable
     }
 }
-

@@ -14,7 +14,6 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
     
     @IBAction func loginButtonTapped(_ sender: UIButton) {
@@ -22,8 +21,7 @@ class ViewController: UIViewController {
         guard let password = passwordTextField.text else {return}
         if User.login(userName: userName, password: password) {
             performSegue(withIdentifier: "loginSucces", sender: self)
-        } else { // alert }
-    }
+        } else { print("Password or user name wrong") }
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

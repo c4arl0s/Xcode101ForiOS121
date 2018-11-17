@@ -13,16 +13,15 @@ class MusicViewController: UIViewController {
     let searchController = UISearchController(searchResultsController: nil)
     
     @IBOutlet weak var musicTableView: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
     func downloadSongs () {
         Music.fetchSongs { (result: [Song]) in
             self.songs = result
             DispatchQueue.main.async {
-                self.musicTableView.reloadData()
+            self.musicTableView.reloadData()
             }
         }
     }
@@ -48,6 +47,7 @@ class MusicViewController: UIViewController {
 
 extension MusicViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        print(songs.count)
         return songs.count
     }
     
@@ -61,5 +61,4 @@ extension MusicViewController: UISearchResultsUpdating {
     func updateSearchResults(for searchController: UISearchController) {
             downloadSongsByName(name: searchController.searchBar.text!)
         }
-    }
-
+}
