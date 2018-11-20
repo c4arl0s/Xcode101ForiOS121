@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8FDEBAF321A3ADC9003A356A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDEBAF221A3ADC9003A356A /* AppDelegate.swift */; };
+		8FDEBAF521A3ADC9003A356A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDEBAF421A3ADC9003A356A /* ViewController.swift */; };
+		8FDEBAF821A3ADC9003A356A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FDEBAF621A3ADC9003A356A /* Main.storyboard */; };
+		8FDEBAFA21A3ADDC003A356A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FDEBAF921A3ADDC003A356A /* Assets.xcassets */; };
+		8FDEBAFD21A3ADDC003A356A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FDEBAFB21A3ADDC003A356A /* LaunchScreen.storyboard */; };
+		8FDEBB0821A3ADDC003A356A /* EncodingWithCodableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDEBB0721A3ADDC003A356A /* EncodingWithCodableTests.swift */; };
+		8FDEBB1321A3ADDC003A356A /* EncodingWithCodableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDEBB1221A3ADDC003A356A /* EncodingWithCodableUITests.swift */; };
+		8FDEBB2121A3AE0E003A356A /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDEBB2021A3AE0E003A356A /* Note.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8FDEBB0421A3ADDC003A356A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FDEBAE721A3ADC9003A356A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FDEBAEE21A3ADC9003A356A;
+			remoteInfo = EncodingWithCodable;
+		};
+		8FDEBB0F21A3ADDC003A356A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FDEBAE721A3ADC9003A356A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FDEBAEE21A3ADC9003A356A;
+			remoteInfo = EncodingWithCodable;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8FDEBAEF21A3ADC9003A356A /* EncodingWithCodable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EncodingWithCodable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FDEBAF221A3ADC9003A356A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8FDEBAF421A3ADC9003A356A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8FDEBAF721A3ADC9003A356A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8FDEBAF921A3ADDC003A356A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8FDEBAFC21A3ADDC003A356A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8FDEBAFE21A3ADDC003A356A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FDEBB0321A3ADDC003A356A /* EncodingWithCodableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EncodingWithCodableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FDEBB0721A3ADDC003A356A /* EncodingWithCodableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncodingWithCodableTests.swift; sourceTree = "<group>"; };
+		8FDEBB0921A3ADDC003A356A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FDEBB0E21A3ADDC003A356A /* EncodingWithCodableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EncodingWithCodableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FDEBB1221A3ADDC003A356A /* EncodingWithCodableUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncodingWithCodableUITests.swift; sourceTree = "<group>"; };
+		8FDEBB1421A3ADDC003A356A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FDEBB2021A3AE0E003A356A /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8FDEBAEC21A3ADC9003A356A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FDEBB0021A3ADDC003A356A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FDEBB0B21A3ADDC003A356A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8FDEBAE621A3ADC9003A356A = {
+			isa = PBXGroup;
+			children = (
+				8FDEBAF121A3ADC9003A356A /* EncodingWithCodable */,
+				8FDEBB0621A3ADDC003A356A /* EncodingWithCodableTests */,
+				8FDEBB1121A3ADDC003A356A /* EncodingWithCodableUITests */,
+				8FDEBAF021A3ADC9003A356A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8FDEBAF021A3ADC9003A356A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8FDEBAEF21A3ADC9003A356A /* EncodingWithCodable.app */,
+				8FDEBB0321A3ADDC003A356A /* EncodingWithCodableTests.xctest */,
+				8FDEBB0E21A3ADDC003A356A /* EncodingWithCodableUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8FDEBAF121A3ADC9003A356A /* EncodingWithCodable */ = {
+			isa = PBXGroup;
+			children = (
+				8FDEBAF221A3ADC9003A356A /* AppDelegate.swift */,
+				8FDEBAF421A3ADC9003A356A /* ViewController.swift */,
+				8FDEBB2021A3AE0E003A356A /* Note.swift */,
+				8FDEBAF621A3ADC9003A356A /* Main.storyboard */,
+				8FDEBAF921A3ADDC003A356A /* Assets.xcassets */,
+				8FDEBAFB21A3ADDC003A356A /* LaunchScreen.storyboard */,
+				8FDEBAFE21A3ADDC003A356A /* Info.plist */,
+			);
+			path = EncodingWithCodable;
+			sourceTree = "<group>";
+		};
+		8FDEBB0621A3ADDC003A356A /* EncodingWithCodableTests */ = {
+			isa = PBXGroup;
+			children = (
+				8FDEBB0721A3ADDC003A356A /* EncodingWithCodableTests.swift */,
+				8FDEBB0921A3ADDC003A356A /* Info.plist */,
+			);
+			path = EncodingWithCodableTests;
+			sourceTree = "<group>";
+		};
+		8FDEBB1121A3ADDC003A356A /* EncodingWithCodableUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8FDEBB1221A3ADDC003A356A /* EncodingWithCodableUITests.swift */,
+				8FDEBB1421A3ADDC003A356A /* Info.plist */,
+			);
+			path = EncodingWithCodableUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8FDEBAEE21A3ADC9003A356A /* EncodingWithCodable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FDEBB1721A3ADDC003A356A /* Build configuration list for PBXNativeTarget "EncodingWithCodable" */;
+			buildPhases = (
+				8FDEBAEB21A3ADC9003A356A /* Sources */,
+				8FDEBAEC21A3ADC9003A356A /* Frameworks */,
+				8FDEBAED21A3ADC9003A356A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EncodingWithCodable;
+			productName = EncodingWithCodable;
+			productReference = 8FDEBAEF21A3ADC9003A356A /* EncodingWithCodable.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8FDEBB0221A3ADDC003A356A /* EncodingWithCodableTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FDEBB1A21A3ADDC003A356A /* Build configuration list for PBXNativeTarget "EncodingWithCodableTests" */;
+			buildPhases = (
+				8FDEBAFF21A3ADDC003A356A /* Sources */,
+				8FDEBB0021A3ADDC003A356A /* Frameworks */,
+				8FDEBB0121A3ADDC003A356A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8FDEBB0521A3ADDC003A356A /* PBXTargetDependency */,
+			);
+			name = EncodingWithCodableTests;
+			productName = EncodingWithCodableTests;
+			productReference = 8FDEBB0321A3ADDC003A356A /* EncodingWithCodableTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8FDEBB0D21A3ADDC003A356A /* EncodingWithCodableUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FDEBB1D21A3ADDC003A356A /* Build configuration list for PBXNativeTarget "EncodingWithCodableUITests" */;
+			buildPhases = (
+				8FDEBB0A21A3ADDC003A356A /* Sources */,
+				8FDEBB0B21A3ADDC003A356A /* Frameworks */,
+				8FDEBB0C21A3ADDC003A356A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8FDEBB1021A3ADDC003A356A /* PBXTargetDependency */,
+			);
+			name = EncodingWithCodableUITests;
+			productName = EncodingWithCodableUITests;
+			productReference = 8FDEBB0E21A3ADDC003A356A /* EncodingWithCodableUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8FDEBAE721A3ADC9003A356A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Carlos Santiago Cruz";
+				TargetAttributes = {
+					8FDEBAEE21A3ADC9003A356A = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					8FDEBB0221A3ADDC003A356A = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 8FDEBAEE21A3ADC9003A356A;
+					};
+					8FDEBB0D21A3ADDC003A356A = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 8FDEBAEE21A3ADC9003A356A;
+					};
+				};
+			};
+			buildConfigurationList = 8FDEBAEA21A3ADC9003A356A /* Build configuration list for PBXProject "EncodingWithCodable" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8FDEBAE621A3ADC9003A356A;
+			productRefGroup = 8FDEBAF021A3ADC9003A356A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8FDEBAEE21A3ADC9003A356A /* EncodingWithCodable */,
+				8FDEBB0221A3ADDC003A356A /* EncodingWithCodableTests */,
+				8FDEBB0D21A3ADDC003A356A /* EncodingWithCodableUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8FDEBAED21A3ADC9003A356A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FDEBAFD21A3ADDC003A356A /* LaunchScreen.storyboard in Resources */,
+				8FDEBAFA21A3ADDC003A356A /* Assets.xcassets in Resources */,
+				8FDEBAF821A3ADC9003A356A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FDEBB0121A3ADDC003A356A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FDEBB0C21A3ADDC003A356A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8FDEBAEB21A3ADC9003A356A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FDEBAF521A3ADC9003A356A /* ViewController.swift in Sources */,
+				8FDEBAF321A3ADC9003A356A /* AppDelegate.swift in Sources */,
+				8FDEBB2121A3AE0E003A356A /* Note.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FDEBAFF21A3ADDC003A356A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FDEBB0821A3ADDC003A356A /* EncodingWithCodableTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FDEBB0A21A3ADDC003A356A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FDEBB1321A3ADDC003A356A /* EncodingWithCodableUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8FDEBB0521A3ADDC003A356A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8FDEBAEE21A3ADC9003A356A /* EncodingWithCodable */;
+			targetProxy = 8FDEBB0421A3ADDC003A356A /* PBXContainerItemProxy */;
+		};
+		8FDEBB1021A3ADDC003A356A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8FDEBAEE21A3ADC9003A356A /* EncodingWithCodable */;
+			targetProxy = 8FDEBB0F21A3ADDC003A356A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8FDEBAF621A3ADC9003A356A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FDEBAF721A3ADC9003A356A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8FDEBAFB21A3ADDC003A356A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FDEBAFC21A3ADDC003A356A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8FDEBB1521A3ADDC003A356A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8FDEBB1621A3ADDC003A356A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8FDEBB1821A3ADDC003A356A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KLD58K8YP9;
+				INFOPLIST_FILE = EncodingWithCodable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Santiago.EncodingWithCodable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8FDEBB1921A3ADDC003A356A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KLD58K8YP9;
+				INFOPLIST_FILE = EncodingWithCodable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Santiago.EncodingWithCodable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8FDEBB1B21A3ADDC003A356A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KLD58K8YP9;
+				INFOPLIST_FILE = EncodingWithCodableTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Santiago.EncodingWithCodableTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EncodingWithCodable.app/EncodingWithCodable";
+			};
+			name = Debug;
+		};
+		8FDEBB1C21A3ADDC003A356A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KLD58K8YP9;
+				INFOPLIST_FILE = EncodingWithCodableTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Santiago.EncodingWithCodableTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EncodingWithCodable.app/EncodingWithCodable";
+			};
+			name = Release;
+		};
+		8FDEBB1E21A3ADDC003A356A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KLD58K8YP9;
+				INFOPLIST_FILE = EncodingWithCodableUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Santiago.EncodingWithCodableUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EncodingWithCodable;
+			};
+			name = Debug;
+		};
+		8FDEBB1F21A3ADDC003A356A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KLD58K8YP9;
+				INFOPLIST_FILE = EncodingWithCodableUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Santiago.EncodingWithCodableUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EncodingWithCodable;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8FDEBAEA21A3ADC9003A356A /* Build configuration list for PBXProject "EncodingWithCodable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FDEBB1521A3ADDC003A356A /* Debug */,
+				8FDEBB1621A3ADDC003A356A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FDEBB1721A3ADDC003A356A /* Build configuration list for PBXNativeTarget "EncodingWithCodable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FDEBB1821A3ADDC003A356A /* Debug */,
+				8FDEBB1921A3ADDC003A356A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FDEBB1A21A3ADDC003A356A /* Build configuration list for PBXNativeTarget "EncodingWithCodableTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FDEBB1B21A3ADDC003A356A /* Debug */,
+				8FDEBB1C21A3ADDC003A356A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FDEBB1D21A3ADDC003A356A /* Build configuration list for PBXNativeTarget "EncodingWithCodableUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FDEBB1E21A3ADDC003A356A /* Debug */,
+				8FDEBB1F21A3ADDC003A356A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8FDEBAE721A3ADC9003A356A /* Project object */;
+}
