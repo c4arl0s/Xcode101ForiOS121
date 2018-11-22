@@ -29,13 +29,12 @@ struct PhotoInfo: Codable {
     init(from decoder: Decoder) throws {
         // func container() Returns the data stored in this decoder as
         // represented in a container keyed by the given key type. [Key: Any]
-        
         let valueContainer = try decoder.container(keyedBy: CodingKeys.self)
         
         self.title = try valueContainer.decode(String.self, forKey: CodingKeys.title)
         self.description = try valueContainer.decode(String.self, forKey: CodingKeys.description)
         self.url = try valueContainer.decode(URL.self, forKey: CodingKeys.url)
-        self.copyright = try valueContainer.decode(String.self, forKey: CodingKeys.copyright)
+        self.copyright = try? valueContainer.decode(String.self, forKey: CodingKeys.copyright)
     }
     // inside the initializer you need to access the JSON data's key/value pairs through decoder
     // You first do this by accessing a keyedCodingContainer, which acts much like a dictionary
