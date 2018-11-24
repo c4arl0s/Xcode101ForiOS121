@@ -9,6 +9,7 @@
 import Foundation
 
 class PhotoInfoController {
+    
     func fetchPhotoInfo(completion: @escaping (PhotoInfo?) -> Void) {
         // this function just make a request to nasa api and decode the data into a dictionary
         // so it is not executed in line with the rest of the code.
@@ -27,4 +28,5 @@ class PhotoInfoController {
         }
         task.resume()
     }
+
 }

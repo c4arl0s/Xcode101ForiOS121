@@ -15,24 +15,25 @@ class ViewController: UIViewController {
     @IBOutlet weak var copyRightLabel: UILabel!
     
     let photoInfoController = PhotoInfoController()
+
     override func viewDidLoad() {
         super.viewDidLoad()
-       
         
         photoInfoController.fetchPhotoInfo { (fetchedInfo) in
             if let fetchedInfo = fetchedInfo {
             DispatchQueue.main.async {
-                    self.title = fetchedInfo.title
+                self.title = fetchedInfo.title
                 self.descriptionLabel.text = fetchedInfo.description
-            }
+            
             if let copyRight = fetchedInfo.copyright {
                 self.copyRightLabel.text = "Copyright: \(copyRight)"
             }   else {
                 self.copyRightLabel.isHidden = true
             }
-            }
+         
         }
-        
-    }
+        }
+    }}
 }
+
 
