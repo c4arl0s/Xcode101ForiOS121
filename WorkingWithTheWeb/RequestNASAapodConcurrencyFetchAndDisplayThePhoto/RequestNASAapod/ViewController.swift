@@ -45,16 +45,12 @@ class ViewController: UIViewController {
                     self.descriptionLabel.text = photoInfo.description
                     if let copyright = photoInfo.copyright {
                         self.copyRightLabel.text = "Copyright \(copyright)"
-                    } else {
-                        self.copyRightLabel.isHidden = true
-                        }
-                    
+                    } else { self.copyRightLabel.isHidden = true }
                 }
             }
         }
         task.resume()
     }
-
 }
 
 
