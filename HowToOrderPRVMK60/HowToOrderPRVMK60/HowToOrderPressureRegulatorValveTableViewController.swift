@@ -28,7 +28,7 @@ class HowToOrderPressureRegulatorValveTableViewController: UITableViewController
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        if section == 0 {
+        if section == 1 {
             return howToOrderValves.count
         } else {
             return 0
@@ -63,7 +63,7 @@ class HowToOrderPressureRegulatorValveTableViewController: UITableViewController
         howToOrderValves.insert(movedValve, at: destinationIndexPath.row)
         tableView.reloadData()
     }
-    override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
+    override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
         if editingStyle == .delete {
             howToOrderValves.remove(at: indexPath.row)
             tableView.deleteRows(at: [indexPath], with: .top)

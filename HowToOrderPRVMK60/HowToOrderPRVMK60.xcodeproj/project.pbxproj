@@ -208,13 +208,16 @@
 				TargetAttributes = {
 					8F3A276B21671F9D0019A579 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1010;
 					};
 					8F3A277F21671FAA0019A579 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1010;
 						TestTargetID = 8F3A276B21671F9D0019A579;
 					};
 					8F3A278A21671FAB0019A579 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1010;
 						TestTargetID = 8F3A276B21671F9D0019A579;
 					};
 				};
@@ -445,13 +448,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KLD58K8YP9;
 				INFOPLIST_FILE = HowToOrderPRVMK60/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Santiago.HowToOrderPRVMK60;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -463,13 +467,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KLD58K8YP9;
 				INFOPLIST_FILE = HowToOrderPRVMK60/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Santiago.HowToOrderPRVMK60;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -489,7 +494,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Santiago.HowToOrderPRVMK60Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HowToOrderPRVMK60.app/HowToOrderPRVMK60";
 			};
@@ -510,7 +515,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Santiago.HowToOrderPRVMK60Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HowToOrderPRVMK60.app/HowToOrderPRVMK60";
 			};
@@ -530,7 +535,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Santiago.HowToOrderPRVMK60UITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = HowToOrderPRVMK60;
 			};
@@ -550,7 +555,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Santiago.HowToOrderPRVMK60UITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = HowToOrderPRVMK60;
 			};
