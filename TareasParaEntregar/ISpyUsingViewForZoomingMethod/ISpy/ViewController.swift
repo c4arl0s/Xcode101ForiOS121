@@ -22,8 +22,6 @@ class ViewController: UIViewController, UIScrollViewDelegate {
         // scroll view use the delegates functions provided by the view controller like viewForZooming.
         ScrollViewOutlet.delegate = self
         // if you want to remember the explanation back to see Scroll Views in iOs11
-       
-        
     }
     func viewForZooming(in scrollView: UIScrollView) -> UIView? {
     // 3rd - this method is called by the Scroll View on its delegate to know

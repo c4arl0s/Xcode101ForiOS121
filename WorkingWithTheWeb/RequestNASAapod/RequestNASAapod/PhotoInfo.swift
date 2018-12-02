@@ -20,7 +20,6 @@ struct PhotoInfo: Codable {
         case url
         case copyright
     }
-    
     // initializar
     // throws indicates that this initializer is a thowing function
     // this function is called by the decoder that you use to decode your JSON data, so errors will be handled by

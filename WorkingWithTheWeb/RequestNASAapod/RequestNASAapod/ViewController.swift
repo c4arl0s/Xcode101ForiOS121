@@ -13,8 +13,10 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-//       urlSessionAndDecodeApiNASA()
+        
+        //urlSessionAndDecodeApiNASA()
         //urlSessionApiNASA()
+        
         fetchPhotoInfo { (fetchedInfo) in
             print(fetchedInfo)
         }
@@ -40,7 +42,7 @@ class ViewController: UIViewController {
         let task = URLSession.shared.dataTask(with: url) { (data,response,error) in
             let jsonDecoder = JSONDecoder()
             if let data = data,
-                let photoDictionary = try? jsonDecoder.decode([String:String].self, from: data)   {
+                let photoDictionary = try? jsonDecoder.decode([String:String].self, from: data) {
                 print(photoDictionary)
             }
         }
