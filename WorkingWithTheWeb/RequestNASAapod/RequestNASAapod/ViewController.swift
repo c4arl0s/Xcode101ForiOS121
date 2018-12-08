@@ -10,6 +10,8 @@ import UIKit
 import Foundation
 
 class ViewController: UIViewController {
+    @IBOutlet weak var sizeLabel: UILabel!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -72,6 +74,10 @@ class ViewController: UIViewController {
             let jsonDecoder = JSONDecoder()
             if let data = data, let photoInfo = try? jsonDecoder.decode(PhotoInfo.self, from: data) {
                 completion(photoInfo)
+                    // you have to display the data into main tread
+                    DispatchQueue.main.async {
+                        self.sizeLabel.text = "\(data.count) bytes downloaded"
+                    }
             } else {
                 print("ERROR: either no data was return, or data was not property decoded")
             }
