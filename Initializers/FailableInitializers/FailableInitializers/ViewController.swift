@@ -20,6 +20,13 @@ class ViewController: UIViewController {
             print("The age you specified for the toddler is not beetwen 1 and 3")
         }
         
+        let anotherPossibleToddler = Toddler(name: "Norma", monthsOld: 40)
+        if let toddler = anotherPossibleToddler {
+            print("\(toddler.name) is \(toddler.monthsOld)")
+        } else {
+            print("The age you specified for the toddler is not beetwen 1 and 3")
+        }
+        
     }
 
 
