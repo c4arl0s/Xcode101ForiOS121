@@ -1,15 +1,15 @@
 //
-//  BuildAnAnimationWireFrameTests.swift
-//  BuildAnAnimationWireFrameTests
+//  FailableInitializersTests.swift
+//  FailableInitializersTests
 //
-//  Created by Carlos Santiago Cruz on 12/2/18.
+//  Created by Carlos Santiago Cruz on 12/9/18.
 //  Copyright © 2018 Carlos Santiago Cruz. All rights reserved.
 //
 
 import XCTest
-@testable import BuildAnAnimationWireFrame
+@testable import FailableInitializers
 
-class BuildAnAnimationWireFrameTests: XCTestCase {
+class FailableInitializersTests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.

@@ -20,7 +20,7 @@ class DataModel {
     // code
     func requestData() {
         // the data was received and parsed to String
-        let data = "this is a pice of data from Clas DataModel"
+        let data = "this is a pice of data from Class DataModel"
         delegate?.didRecieveDataUpdate(data: data)
     }
 }

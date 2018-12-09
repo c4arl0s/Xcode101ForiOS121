@@ -74,7 +74,7 @@ class ViewController: UIViewController {
             let jsonDecoder = JSONDecoder()
             if let data = data, let photoInfo = try? jsonDecoder.decode(PhotoInfo.self, from: data) {
                 completion(photoInfo)
-                    // you have to display the data into main tread
+                    // if you want to display the data into main tread
                     DispatchQueue.main.async {
                         self.sizeLabel.text = "\(data.count) bytes downloaded"
                     }

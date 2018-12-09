@@ -12,8 +12,6 @@
 		8F9AA0A421802A7000DEE994 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F9AA0A221802A7000DEE994 /* Main.storyboard */; };
 		8F9AA0A621802A7600DEE994 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F9AA0A521802A7600DEE994 /* Assets.xcassets */; };
 		8F9AA0A921802A7600DEE994 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F9AA0A721802A7600DEE994 /* LaunchScreen.storyboard */; };
-		8F9AA0B421802A7700DEE994 /* PassingDataFromModelToControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9AA0B321802A7700DEE994 /* PassingDataFromModelToControllerTests.swift */; };
-		8F9AA0BF21802A7700DEE994 /* PassingDataFromModelToControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9AA0BE21802A7700DEE994 /* PassingDataFromModelToControllerUITests.swift */; };
 		8F9AA0CD21802A9700DEE994 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9AA0CC21802A9700DEE994 /* DataModel.swift */; };
 /* End PBXBuildFile section */
 
@@ -43,11 +41,7 @@
 		8F9AA0A821802A7600DEE994 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8F9AA0AA21802A7600DEE994 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F9AA0AF21802A7700DEE994 /* PassingDataFromModelToControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PassingDataFromModelToControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8F9AA0B321802A7700DEE994 /* PassingDataFromModelToControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassingDataFromModelToControllerTests.swift; sourceTree = "<group>"; };
-		8F9AA0B521802A7700DEE994 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F9AA0BA21802A7700DEE994 /* PassingDataFromModelToControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PassingDataFromModelToControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8F9AA0BE21802A7700DEE994 /* PassingDataFromModelToControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassingDataFromModelToControllerUITests.swift; sourceTree = "<group>"; };
-		8F9AA0C021802A7700DEE994 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F9AA0CC21802A9700DEE994 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,8 +74,6 @@
 			isa = PBXGroup;
 			children = (
 				8F9AA09D21802A7000DEE994 /* PassingDataFromModelToController */,
-				8F9AA0B221802A7700DEE994 /* PassingDataFromModelToControllerTests */,
-				8F9AA0BD21802A7700DEE994 /* PassingDataFromModelToControllerUITests */,
 				8F9AA09C21802A7000DEE994 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -108,24 +100,6 @@
 				8F9AA0AA21802A7600DEE994 /* Info.plist */,
 			);
 			path = PassingDataFromModelToController;
-			sourceTree = "<group>";
-		};
-		8F9AA0B221802A7700DEE994 /* PassingDataFromModelToControllerTests */ = {
-			isa = PBXGroup;
-			children = (
-				8F9AA0B321802A7700DEE994 /* PassingDataFromModelToControllerTests.swift */,
-				8F9AA0B521802A7700DEE994 /* Info.plist */,
-			);
-			path = PassingDataFromModelToControllerTests;
-			sourceTree = "<group>";
-		};
-		8F9AA0BD21802A7700DEE994 /* PassingDataFromModelToControllerUITests */ = {
-			isa = PBXGroup;
-			children = (
-				8F9AA0BE21802A7700DEE994 /* PassingDataFromModelToControllerUITests.swift */,
-				8F9AA0C021802A7700DEE994 /* Info.plist */,
-			);
-			path = PassingDataFromModelToControllerUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,7 +243,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F9AA0B421802A7700DEE994 /* PassingDataFromModelToControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +250,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F9AA0BF21802A7700DEE994 /* PassingDataFromModelToControllerUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
