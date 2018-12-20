@@ -12,8 +12,8 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let toy1 = Toy(name: "Teddy Bear")
-        let employee1 = Employee(name: "John Appleseed", id: 7, favoriteToy: toy1)
+        let tool1 = Tool(name: "Hammer")
+        let employee1 = Employee(name: "Carlos Santiago", id: 7, favoriteTool: tool1)
         //create an instance let jsonEncoder = JSONEncoder()
         let jsonEncoder = JSONEncoder()
         let jsonData = try? jsonEncoder.encode(employee1)

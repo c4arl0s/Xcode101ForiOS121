@@ -11,8 +11,8 @@ import Foundation
 struct Employee: Codable {
     var name: String
     var id: Int
-    var favoriteToy: Toy
+    var favoriteTool: Tool
 }
-struct Toy: Codable {
+struct Tool: Codable {
     var name: String
 }
