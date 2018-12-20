@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F52471A21CB5094000B0126 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F52471921CB5094000B0126 /* AppDelegate.swift */; };
+		8F52471C21CB5094000B0126 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F52471B21CB5094000B0126 /* ViewController.swift */; };
+		8F52471F21CB5094000B0126 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F52471D21CB5094000B0126 /* Main.storyboard */; };
+		8F52472121CB509F000B0126 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F52472021CB509F000B0126 /* Assets.xcassets */; };
+		8F52472421CB509F000B0126 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F52472221CB509F000B0126 /* LaunchScreen.storyboard */; };
+		8F52472F21CB509F000B0126 /* CodingKeyProtocol_CodingKeysEnumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F52472E21CB509F000B0126 /* CodingKeyProtocol_CodingKeysEnumTests.swift */; };
+		8F52473A21CB509F000B0126 /* CodingKeyProtocol_CodingKeysEnumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F52473921CB509F000B0126 /* CodingKeyProtocol_CodingKeysEnumUITests.swift */; };
+		8F52474821CB50B3000B0126 /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F52474721CB50B3000B0126 /* Employee.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8F52472B21CB509F000B0126 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F52470E21CB5094000B0126 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F52471521CB5094000B0126;
+			remoteInfo = "CodingKeyProtocol-CodingKeysEnum";
+		};
+		8F52473621CB509F000B0126 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F52470E21CB5094000B0126 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F52471521CB5094000B0126;
+			remoteInfo = "CodingKeyProtocol-CodingKeysEnum";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8F52471621CB5094000B0126 /* CodingKeyProtocol-CodingKeysEnum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CodingKeyProtocol-CodingKeysEnum.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F52471921CB5094000B0126 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8F52471B21CB5094000B0126 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8F52471E21CB5094000B0126 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8F52472021CB509F000B0126 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F52472321CB509F000B0126 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8F52472521CB509F000B0126 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F52472A21CB509F000B0126 /* CodingKeyProtocol-CodingKeysEnumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CodingKeyProtocol-CodingKeysEnumTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F52472E21CB509F000B0126 /* CodingKeyProtocol_CodingKeysEnumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodingKeyProtocol_CodingKeysEnumTests.swift; sourceTree = "<group>"; };
+		8F52473021CB509F000B0126 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F52473521CB509F000B0126 /* CodingKeyProtocol-CodingKeysEnumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CodingKeyProtocol-CodingKeysEnumUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F52473921CB509F000B0126 /* CodingKeyProtocol_CodingKeysEnumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodingKeyProtocol_CodingKeysEnumUITests.swift; sourceTree = "<group>"; };
+		8F52473B21CB509F000B0126 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F52474721CB50B3000B0126 /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F52471321CB5094000B0126 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F52472721CB509F000B0126 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F52473221CB509F000B0126 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F52470D21CB5094000B0126 = {
+			isa = PBXGroup;
+			children = (
+				8F52471821CB5094000B0126 /* CodingKeyProtocol-CodingKeysEnum */,
+				8F52472D21CB509F000B0126 /* CodingKeyProtocol-CodingKeysEnumTests */,
+				8F52473821CB509F000B0126 /* CodingKeyProtocol-CodingKeysEnumUITests */,
+				8F52471721CB5094000B0126 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F52471721CB5094000B0126 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F52471621CB5094000B0126 /* CodingKeyProtocol-CodingKeysEnum.app */,
+				8F52472A21CB509F000B0126 /* CodingKeyProtocol-CodingKeysEnumTests.xctest */,
+				8F52473521CB509F000B0126 /* CodingKeyProtocol-CodingKeysEnumUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F52471821CB5094000B0126 /* CodingKeyProtocol-CodingKeysEnum */ = {
+			isa = PBXGroup;
+			children = (
+				8F52471921CB5094000B0126 /* AppDelegate.swift */,
+				8F52474921CB55BF000B0126 /* Models */,
+				8F52474A21CB55C9000B0126 /* Controllers */,
+				8F52474B21CB55DA000B0126 /* Views */,
+				8F52472021CB509F000B0126 /* Assets.xcassets */,
+				8F52472521CB509F000B0126 /* Info.plist */,
+			);
+			path = "CodingKeyProtocol-CodingKeysEnum";
+			sourceTree = "<group>";
+		};
+		8F52472D21CB509F000B0126 /* CodingKeyProtocol-CodingKeysEnumTests */ = {
+			isa = PBXGroup;
+			children = (
+				8F52472E21CB509F000B0126 /* CodingKeyProtocol_CodingKeysEnumTests.swift */,
+				8F52473021CB509F000B0126 /* Info.plist */,
+			);
+			path = "CodingKeyProtocol-CodingKeysEnumTests";
+			sourceTree = "<group>";
+		};
+		8F52473821CB509F000B0126 /* CodingKeyProtocol-CodingKeysEnumUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8F52473921CB509F000B0126 /* CodingKeyProtocol_CodingKeysEnumUITests.swift */,
+				8F52473B21CB509F000B0126 /* Info.plist */,
+			);
+			path = "CodingKeyProtocol-CodingKeysEnumUITests";
+			sourceTree = "<group>";
+		};
+		8F52474921CB55BF000B0126 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8F52474721CB50B3000B0126 /* Employee.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8F52474A21CB55C9000B0126 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8F52471B21CB5094000B0126 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8F52474B21CB55DA000B0126 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8F52472221CB509F000B0126 /* LaunchScreen.storyboard */,
+				8F52471D21CB5094000B0126 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F52471521CB5094000B0126 /* CodingKeyProtocol-CodingKeysEnum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F52473E21CB509F000B0126 /* Build configuration list for PBXNativeTarget "CodingKeyProtocol-CodingKeysEnum" */;
+			buildPhases = (
+				8F52471221CB5094000B0126 /* Sources */,
+				8F52471321CB5094000B0126 /* Frameworks */,
+				8F52471421CB5094000B0126 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CodingKeyProtocol-CodingKeysEnum";
+			productName = "CodingKeyProtocol-CodingKeysEnum";
+			productReference = 8F52471621CB5094000B0126 /* CodingKeyProtocol-CodingKeysEnum.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8F52472921CB509F000B0126 /* CodingKeyProtocol-CodingKeysEnumTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F52474121CB509F000B0126 /* Build configuration list for PBXNativeTarget "CodingKeyProtocol-CodingKeysEnumTests" */;
+			buildPhases = (
+				8F52472621CB509F000B0126 /* Sources */,
+				8F52472721CB509F000B0126 /* Frameworks */,
+				8F52472821CB509F000B0126 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F52472C21CB509F000B0126 /* PBXTargetDependency */,
+			);
+			name = "CodingKeyProtocol-CodingKeysEnumTests";
+			productName = "CodingKeyProtocol-CodingKeysEnumTests";
+			productReference = 8F52472A21CB509F000B0126 /* CodingKeyProtocol-CodingKeysEnumTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8F52473421CB509F000B0126 /* CodingKeyProtocol-CodingKeysEnumUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F52474421CB509F000B0126 /* Build configuration list for PBXNativeTarget "CodingKeyProtocol-CodingKeysEnumUITests" */;
+			buildPhases = (
+				8F52473121CB509F000B0126 /* Sources */,
+				8F52473221CB509F000B0126 /* Frameworks */,
+				8F52473321CB509F000B0126 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F52473721CB509F000B0126 /* PBXTargetDependency */,
+			);
+			name = "CodingKeyProtocol-CodingKeysEnumUITests";
+			productName = "CodingKeyProtocol-CodingKeysEnumUITests";
+			productReference = 8F52473521CB509F000B0126 /* CodingKeyProtocol-CodingKeysEnumUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F52470E21CB5094000B0126 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Carlos Santiago Cruz";
+				TargetAttributes = {
+					8F52471521CB5094000B0126 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					8F52472921CB509F000B0126 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 8F52471521CB5094000B0126;
+					};
+					8F52473421CB509F000B0126 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 8F52471521CB5094000B0126;
+					};
+				};
+			};
+			buildConfigurationList = 8F52471121CB5094000B0126 /* Build configuration list for PBXProject "CodingKeyProtocol-CodingKeysEnum" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F52470D21CB5094000B0126;
+			productRefGroup = 8F52471721CB5094000B0126 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F52471521CB5094000B0126 /* CodingKeyProtocol-CodingKeysEnum */,
+				8F52472921CB509F000B0126 /* CodingKeyProtocol-CodingKeysEnumTests */,
+				8F52473421CB509F000B0126 /* CodingKeyProtocol-CodingKeysEnumUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F52471421CB5094000B0126 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F52472421CB509F000B0126 /* LaunchScreen.storyboard in Resources */,
+				8F52472121CB509F000B0126 /* Assets.xcassets in Resources */,
+				8F52471F21CB5094000B0126 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F52472821CB509F000B0126 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F52473321CB509F000B0126 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F52471221CB5094000B0126 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F52471C21CB5094000B0126 /* ViewController.swift in Sources */,
+				8F52474821CB50B3000B0126 /* Employee.swift in Sources */,
+				8F52471A21CB5094000B0126 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F52472621CB509F000B0126 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F52472F21CB509F000B0126 /* CodingKeyProtocol_CodingKeysEnumTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F52473121CB509F000B0126 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F52473A21CB509F000B0126 /* CodingKeyProtocol_CodingKeysEnumUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8F52472C21CB509F000B0126 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F52471521CB5094000B0126 /* CodingKeyProtocol-CodingKeysEnum */;
+			targetProxy = 8F52472B21CB509F000B0126 /* PBXContainerItemProxy */;
+		};
+		8F52473721CB509F000B0126 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F52471521CB5094000B0126 /* CodingKeyProtocol-CodingKeysEnum */;
+			targetProxy = 8F52473621CB509F000B0126 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8F52471D21CB5094000B0126 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F52471E21CB5094000B0126 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8F52472221CB509F000B0126 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F52472321CB509F000B0126 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F52473C21CB509F000B0126 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8F52473D21CB509F000B0126 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F52473F21CB509F000B0126 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KLD58K8YP9;
+				INFOPLIST_FILE = "CodingKeyProtocol-CodingKeysEnum/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Santiago.CodingKeyProtocol-CodingKeysEnum";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8F52474021CB509F000B0126 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KLD58K8YP9;
+				INFOPLIST_FILE = "CodingKeyProtocol-CodingKeysEnum/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Santiago.CodingKeyProtocol-CodingKeysEnum";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8F52474221CB509F000B0126 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KLD58K8YP9;
+				INFOPLIST_FILE = "CodingKeyProtocol-CodingKeysEnumTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Santiago.CodingKeyProtocol-CodingKeysEnumTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CodingKeyProtocol-CodingKeysEnum.app/CodingKeyProtocol-CodingKeysEnum";
+			};
+			name = Debug;
+		};
+		8F52474321CB509F000B0126 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KLD58K8YP9;
+				INFOPLIST_FILE = "CodingKeyProtocol-CodingKeysEnumTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Santiago.CodingKeyProtocol-CodingKeysEnumTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CodingKeyProtocol-CodingKeysEnum.app/CodingKeyProtocol-CodingKeysEnum";
+			};
+			name = Release;
+		};
+		8F52474521CB509F000B0126 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KLD58K8YP9;
+				INFOPLIST_FILE = "CodingKeyProtocol-CodingKeysEnumUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Santiago.CodingKeyProtocol-CodingKeysEnumUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CodingKeyProtocol-CodingKeysEnum";
+			};
+			name = Debug;
+		};
+		8F52474621CB509F000B0126 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KLD58K8YP9;
+				INFOPLIST_FILE = "CodingKeyProtocol-CodingKeysEnumUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Santiago.CodingKeyProtocol-CodingKeysEnumUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CodingKeyProtocol-CodingKeysEnum";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F52471121CB5094000B0126 /* Build configuration list for PBXProject "CodingKeyProtocol-CodingKeysEnum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F52473C21CB509F000B0126 /* Debug */,
+				8F52473D21CB509F000B0126 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F52473E21CB509F000B0126 /* Build configuration list for PBXNativeTarget "CodingKeyProtocol-CodingKeysEnum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F52473F21CB509F000B0126 /* Debug */,
+				8F52474021CB509F000B0126 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F52474121CB509F000B0126 /* Build configuration list for PBXNativeTarget "CodingKeyProtocol-CodingKeysEnumTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F52474221CB509F000B0126 /* Debug */,
+				8F52474321CB509F000B0126 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F52474421CB509F000B0126 /* Build configuration list for PBXNativeTarget "CodingKeyProtocol-CodingKeysEnumUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F52474521CB509F000B0126 /* Debug */,
+				8F52474621CB509F000B0126 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F52470E21CB5094000B0126 /* Project object */;
+}
