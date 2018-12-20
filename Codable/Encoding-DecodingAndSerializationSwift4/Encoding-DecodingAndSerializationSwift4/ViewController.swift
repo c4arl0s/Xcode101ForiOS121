@@ -22,7 +22,7 @@ class ViewController: UIViewController {
         print(jsonString!)
         let jsonDecoder = JSONDecoder()
         let employee2 = try? jsonDecoder.decode(Employee.self, from: jsonData!)
-        print(employee2)
+        print(employee2!)
         
     }
 
