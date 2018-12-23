@@ -67,6 +67,19 @@ class ViewController: UIViewController {
         print(substractingSet)
         let symmetricDifferenceSet = oddDigits.symmetricDifference(singleDigitPrimeNumbers).sorted()
         print(symmetricDifferenceSet)
+        // Set Membership and Equality
+        let houseAnimals: Set = ["🐶", "🐱"]
+        let farmAnimals: Set = ["🐮", "🐔", "🐑", "🐶", "🐱"]
+        let cityAnimals: Set = ["🐦", "🐭"]
+        if houseAnimals.isSubset(of: farmAnimals) {
+            print("true")
+        }
+        if farmAnimals.isSuperset(of: houseAnimals) {
+            print("true")
+        }
+        if farmAnimals.isDisjoint(with: cityAnimals) {
+            print("true")
+        }
     }
 
 
