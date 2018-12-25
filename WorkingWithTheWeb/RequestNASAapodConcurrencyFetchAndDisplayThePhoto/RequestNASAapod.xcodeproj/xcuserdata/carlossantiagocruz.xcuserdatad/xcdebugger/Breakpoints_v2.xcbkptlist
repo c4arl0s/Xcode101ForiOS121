@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "Yes"
+            filePath = "RequestNASAapod/PhotoInfoController.swift"
+            timestampString = "567384892.96684"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "fetchPhotoInfo(completion:)"
+            landmarkType = "7">
+            <Actions>
+               <BreakpointActionProxy
+                  ActionExtensionID = "Xcode.BreakpointAction.Log">
+                  <ActionContent
+                     message = "print url = @url@"
+                     conveyanceType = "0">
+                  </ActionContent>
+               </BreakpointActionProxy>
+            </Actions>
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RequestNASAapod.PhotoInfoController.fetchPhotoInfo(completion: (Swift.Optional&lt;RequestNASAapod.PhotoInfo&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "RequestNASAapod"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/carlossantiagocruz/Documents/SWIFT-PROGRAMMING/Xcode101ForiOS121/WorkingWithTheWeb/RequestNASAapodConcurrencyFetchAndDisplayThePhoto/RequestNASAapod/PhotoInfoController.swift"
+                  timestampString = "567384892.978187"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "618">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in RequestNASAapod.PhotoInfoController.fetchPhotoInfo(completion: (Swift.Optional&lt;RequestNASAapod.PhotoInfo&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "RequestNASAapod"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/carlossantiagocruz/Documents/SWIFT-PROGRAMMING/Xcode101ForiOS121/WorkingWithTheWeb/RequestNASAapodConcurrencyFetchAndDisplayThePhoto/RequestNASAapod/PhotoInfoController.swift"
+                  timestampString = "567384892.984467"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "105">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
