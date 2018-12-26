@@ -1,8 +1,6 @@
-Xcode101ForiOS121
-Projects for iOS 12.1 using Xcode 10.1
-
 # Xcode101ForiOS121
 
+Projects for iOS 12.1 using Xcode 10.1
 
 This repository was created for academic purposes, feel free to download or modify the code. 
 
