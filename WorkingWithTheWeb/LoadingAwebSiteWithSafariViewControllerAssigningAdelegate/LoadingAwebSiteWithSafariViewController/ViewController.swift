@@ -17,7 +17,7 @@ class ViewController: UIViewController, SFSafariViewControllerDelegate {
         // Do any additional setup after loading the view, typically from a nib.
     }
     @IBAction func openWebButtonnTapped(_ sender: UIButton) {
-        let url = URL(string: "https://www.apple.com")
+        let url = URL(string: "http://23.253.47.149/Scripts/OnlineJVCV.isa/EXEC/1/1ls185i1xclsqu13b9pre1w1xbbi")
         let controller = SFSafariViewController(url: url!)
         controller.delegate = self
         present(controller, animated: true, completion: nil)
