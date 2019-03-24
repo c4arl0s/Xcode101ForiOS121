@@ -19,10 +19,9 @@ class ViewController: UIViewController {
         print(location)
         // it prints the coordinates where you tapped on screen. Look at the console
         // no necesita de un outlet, preguntar por qué ?
-
+        // It is because
     }
     
-
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

@@ -18,7 +18,6 @@ protocol LogoDownloaderDelegate {
 class LogoDownloader {
     
     var logoURL:String
-    
     var image:UIImage?
     
     // weak var delegate:LogoDownloaderDelegate?
